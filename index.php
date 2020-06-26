@@ -15,19 +15,24 @@
     <?php include 'header.php'; ?>
     
     <section class="container">
-        <article class="gridone">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
+        <article class="gridone inview poverview">
+            <img src="img/swiss-baumanagement-neubau-mfh-geschaeftshaus-polygon-bottighofen-thurgau-aussenansicht-westen.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
+            <div class="phover">
+                <h1 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h1>
+            </div>
+        </article>
+        <article class="gridtwo inviewr last poverview">
+            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>
+            <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-baumgartenweg.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
+        </article>
+        <article class="gridoneheight inviewb poverview">
+            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>
+            <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
         </article>
         <article class="gridone">
             <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
         </article>
-        <article class="gridone last">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
-        </article>
-        <article class="gridone">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
-        </article>
-        <article class="gridone">
+        <article class="gridone inview">
             <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
         </article>
         <article class="gridone last">

@@ -2,27 +2,56 @@ $(document).ready(function () {
     
     setTimeout(function(){$('#loader').fadeOut(800)},800);
     
+    
+    // Navigation //
+    
     $('#navburger').click(function(){
         $('.nav').stop(true).fadeToggle(500);
 		$('.navburgeron').stop(true).toggleClass('navshow');
         $('.nav ul').stop(true).toggleClass('in');
 	});
 
-    $('.bookmark').click(function() {
-        var position = $($(this).attr('href')).offset().top - 120;
-        
-        $('#navburger').removeClass('open');
-        $('.nav').fadeToggle(1000);
-        $('.nav ul').removeClass('up');
-        $('.nav li').removeClass('open');
-        $("body, html").animate({scrollTop: position}, 2000);
-    });
+    // Fadin inview //
     
-    $('.goto').click(function() {
-        var goto = $($(this).attr('href')).offset().top - 120;
-        
-        $("body, html").animate({scrollTop: goto}, 2000);
-    });
+    $(window).scroll(function() {
+        $('.inview').each(function(i) {
+            var bottom_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ) {
+                $(this).addClass('inview-fade');
+            } else {
+                $(this).removeClass('inview-fade');
+            }
+        }); 
+    }).scroll();
+    
+    $(window).scroll(function() {
+        $('.inviewr').each(function(i) {
+            var bottom_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ) {
+                $(this).addClass('inviewr-fade');
+            } else {
+                $(this).removeClass('inviewr-fade');
+            }
+        }); 
+    }).scroll();
+    
+    $(window).scroll(function() {
+        $('.inviewb').each(function(i) {
+            var bottom_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ) {
+                $(this).addClass('inviewb-fade');
+            } else {
+                $(this).removeClass('inviewb-fade');
+            }
+        }); 
+    }).scroll();
+    
     
     // impressum //
 
