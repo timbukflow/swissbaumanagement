@@ -1,0 +1,384 @@
+/*
+    Theme Name: swiss baumanagement
+    Description: swiss baumanagement
+    Version: 1.0
+    Author: Ivo Schwizer
+    Author URI: http://schwizerschlatter.com
+    Tags: No Tags
+*/
+
+/*
+    Color Theme: swiss baumanagement
+    Main Color Green: #646464;
+*/
+
+html, body {
+    height: 100%;
+    position:relative;
+}
+
+body {
+    margin:0px;
+    background-color: #fff;
+    padding: 0px;
+}
+    
+h1, h2, p, a {
+    color: #646464;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 21px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.75px;
+}
+
+figure {
+    margin-bottom: 80px;
+}
+
+figcaption {
+    font-size: 14px;
+    padding: 15px 20px;
+}
+
+a{
+    font-size: 16px;
+}
+
+/*---------------------------------- 
+    header
+-----------------------------------*/
+header {
+    margin: 60px 0px 0px 8%;
+}
+
+/*---------------------------------- 
+    nav
+-----------------------------------*/
+
+#navburger {
+    width: 30px;
+    height: 21px;
+    position: fixed;
+    top: 60px;
+    right: 60px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-transition: ease 1s;
+    -moz-transition: ease 1s;
+    -o-transition: ease 1s;
+    transition: ease 1s;
+}
+
+#navburger span{
+    position: absolute;
+    height: 1px;
+    width: 30px;
+    background: #646464;
+    right: 0;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#navburger span:nth-child(1) {top: 0px;}
+#navburger span:nth-child(2) {top: 5px;}
+#navburger span:nth-child(3) {top: 10px;}
+#navburger span:nth-child(4) {top: 15px;}
+#navburger span:nth-child(5) {top: 20px;}
+
+#navburger:hover span.short {
+    width: 30px;
+}
+
+#navburger:hover div.short {
+    width: 30px;
+}
+
+.navburgeron {
+    width: 30px;
+    height: 120px;
+    position: fixed;
+    top: 80px;
+    right: 60px;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.navburgeron div {
+    top: 0px;
+    position: absolute;
+    height: 1px;
+    width: 30px;
+    background: #646464;
+    opacity: 0;
+    right: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    transition-delay: 0.25s;
+}
+
+#navburger span.short,
+.navburgeron div.short {
+    width: 20px;
+}
+
+#navburger:hover .short {
+    width: 20px;
+}
+
+.navshow div {opacity: 1;}
+.navshow div:nth-child(1) {top: 5px;}
+.navshow div:nth-child(2) {top: 10px;}
+.navshow div:nth-child(3) {top: 15px;}
+.navshow div:nth-child(4) {top: 20px;}
+.navshow div:nth-child(5) {top: 25px;}
+.navshow div:nth-child(6) {top: 30px;}
+.navshow div:nth-child(7) {top: 35px;}
+.navshow div:nth-child(8) {top: 40px;}
+.navshow div:nth-child(9) {top: 45px;}
+.navshow div:nth-child(10) {top: 50px;}
+.navshow div:nth-child(11) {top: 55px;}
+.navshow div:nth-child(12) {top: 60px;}
+.navshow div:nth-child(13) {top: 65px;}
+.navshow div:nth-child(14) {top: 70px;}
+.navshow div:nth-child(15) {top: 75px;}
+.navshow div:nth-child(16) {top: 80px;}
+.navshow div:nth-child(17) {top: 85px;}
+.navshow div:nth-child(18) {top: 90px;}
+.navshow div:nth-child(19) {top: 95px;}
+.navshow div:nth-child(20) {top: 100px;}
+.navshow div:nth-child(21) {top: 105px;}
+.navshow div:nth-child(22) {top: 110px;}
+.navshow div:nth-child(23) {top: 115px;}
+.navshow div:nth-child(24) {top: 120px;}
+
+
+.nav {
+    background-color: #f5f5f5;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    
+}
+
+.logo {
+    margin: 60px 0px 0px 5%;
+}
+
+.nav ul {
+    position: fixed;
+    margin: 0;
+    text-align: right;
+    padding: 0;
+    top: 56px;
+    right: 110px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.25s;
+}
+
+.nav ul.in {
+    opacity: 0;
+    right: 80px;
+}
+
+
+.nav li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+/*---------------------------------- 
+    container
+-----------------------------------*/
+
+.container {
+    margin: 0px 8% 0px 8%;
+    background-color: beige;
+}
+
+.gridone {
+    width: 30%;
+    margin: 0px 5% 5% 0px;
+    background-color: rosybrown;
+    float: left;
+    height: 500px;
+    overflow: hidden;
+}
+
+.gridone.last {
+    margin: 0px 0px 5% 0px;
+}
+
+
+/*---------------------------------- 
+    footer
+-----------------------------------*/
+
+footer {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    background-color: #718166;
+    width: 100%;
+    float: left;
+    z-index: 1
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+}
+
+.footerkontakt {
+    float: left;
+    
+}
+
+.footerkontakt p {
+    color: #fff;
+    margin: 40px;
+}
+
+.footerkontakt a,
+#impressum p{
+    color: #fff;
+}
+
+.footernav {
+    float: right;
+    margin: 40px 80px 40px 40px;
+}
+
+.footernav ul {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+}
+
+footer a{
+    color: #fff;
+    margin: 0;
+}
+
+.impressum {
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+}
+
+#impressum {
+    display: none;
+    padding: 40px 40px;
+    position: relative;
+    float: left;
+}
+
+.disclamer {
+    font-size: 14px;
+    color: #fff;
+}
+
+.konditionen {
+    font-size: 14px;
+    color: #718166;
+}
+
+#datenschutz,
+#konditionen {
+    display: none;
+    padding: 0px 40px 40px;
+    position: relative;
+    float: left;
+}
+
+#datenschutz p{
+    font-size: 14px;
+    color: #fff;
+}
+
+
+#optoutbanner99 {
+	font-size: 12px;
+	line-height: 18px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: right;
+	z-index: 200;
+}
+
+#optoutbanner99 a,
+#optoutbanner99 p{
+	cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    margin: 0px 3px;
+}
+
+#acceptga {
+	text-decoration: none !important;
+	background-color: #718166;
+	color: #fff !important;
+	font-weight: normal !important;
+    padding: 0px 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+/*---------------------------------- 
+responsive ipad
+-----------------------------------*/
+
+@media only screen and (max-width: 1400px) {
+   
+}
+
+@media only screen and (max-width: 1270px) {
+
+}
+    
+@media only screen and (max-width: 1130px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+ 
+}
+
+@media only screen and (max-width: 768px) {
+}
