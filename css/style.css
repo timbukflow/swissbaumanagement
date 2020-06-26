@@ -277,7 +277,7 @@ header {
 
 .gridone.last,
 .gridtwo.last {
-    margin: 0px 0px 5% 0px;
+    margin: 0px 0px 80px 0px;
 }
 
 .gridtwo {
@@ -295,22 +295,27 @@ header {
     object-fit: cover; 
 	width: 100%; 
 	height: 100%;
+    z-index: 2;
 }
 
 .phover {
-    background-color: #f5f5f5;
     position: absolute;
-    width: 100%;
     height: 100%;
-    opacity: 0;
-    top: 50px;
-    left: 50px;
-     -webkit-transition: 0.5s ease-in-out;
-  
+    right: 0;
+    z-index: 1;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.phover h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+    writing-mode:vertical-lr;
 }
 
 .poverview:hover .phover {
-    opacity: 1;
+    right: -30px; 
 }
 
 .phover h2 {
