@@ -17,9 +17,9 @@
     <section class="container">
         <article class="gridone inview poverview">
             
-            <img src="img/swiss-baumanagement-neubau-mfh-geschaeftshaus-polygon-bottighofen-thurgau-aussenansicht-westen.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
+            <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
             <div class="phover">
-                <h1 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h1>
+                <h1 class="projectdescription">Neubau MFH Eggli <span>Abtwil St.Gallen</span> </h1>
             </div>
         </article>
         <article class="gridtwo inviewr last poverview">
@@ -40,7 +40,8 @@
             <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
         </article>
     </section>
-        
+    
+    <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>
 </body>
 </html>

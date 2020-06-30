@@ -1,36 +1,29 @@
 <footer>
+    <div class="footer"> 
+        <p>
+            Swiss Baumanagement AG<br>
+            Flurhofstrasse 160<br>
+            9000 St.Gallen
+        </p>
+    </div>    
     <div class="footer">
-        <div class="footerkontakt">   
-            <p>
-                <strong>Bauherrschaft</strong>:<br>
-                Bauherrengemeinschaft<br> 
-                Baumgarten Goldach <br>
-                c/o Dr. Eugen Mätzler<br>
-                Rechtsanwalt<br>
-                St.Gallen
-            </p>
-        </div>
-        <div class="footerkontakt">   
-            <p>
-                <strong>Ansprechperson</strong><br>
-                Sproll &amp; Ramseyer AG<br>
-                Frau Angela Signer<br>
-                <a href="tel:0712290029">T 071 229 00 29</a><br>
-                <a href="mailto:angela.signer@sur.ag" target="_top">angela.signer@sur.ag</a><br>
-                <a class="linkw" href="downloads/baumgarten-anmeldeformular-mietinteressenten.pdf" download="Anmeldeformular">Anmeldeformular</a>
-            </p>
-        </div>
-        <nav class="footernav">   
-            <ul>
-                <li><a class="linkw" href="index">Baumgarten</a></li>
-                <li><a class="linkw" href="goldach">Goldach</a></li>
-                <li><a class="linkw" href="wohnangebot">Wohnangebot</a></li>
-                <li><a class="linkw" href="kontakt">Kontakt</a></li>
-                <li><a class="linkw" href="kontakt">Downloads</a></li>
-                <li><span class="linkw impressum" data-toggle="#impressum">Impressum</span></li>
-            </ul>
-        </nav>
+        <p> <br>
+            <a href="tel:0712801827">+41 71 280 18 27</a><br>
+            <a href="mailto:info@swiss-baumanagement.ch" target="_top">info@swiss-baumanagement.ch</a>
+        </p>
     </div>
+    <div class="footer last">
+        <p>
+            <br>
+            <a data-toggle="#impressum">AGB</a><br>
+            <a data-toggle="#impressum">Impressum</a>
+        </p>
+        <img src="img/wir-machen-profis-lehrbetrieb-logo.jpg" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
+    </div>
+    
+    
+    
+    
         <div id="impressum">    
             <p><b>Design &#38; Interaction:</b><br>Schwizer &#38; Schlatter GmbH<br>Davidstrasse 45<br>9000 St.Gallen<br>
                 <a class="linkw" href="https://www.schwizerschlatter.com" target="_blank">www.schwizerschlatter.com</a>

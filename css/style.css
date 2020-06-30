@@ -63,10 +63,6 @@ figcaption {
     padding: 15px 20px;
 }
 
-a{
-    font-size: 16px;
-}
-
 /*---------------------------------- 
     header
 -----------------------------------*/
@@ -259,7 +255,7 @@ header {
 
 .container {
     margin: 60px 6% 0px 6%;
-    background-color: beige;
+    display: inline-block;
 }
 
 .gridone, .gridoneheight {
@@ -273,11 +269,6 @@ header {
 
 .gridoneheight {
     height: 520px;
-}
-
-.gridone.last,
-.gridtwo.last {
-    margin: 0px 0px 80px 0px;
 }
 
 .gridtwo {
@@ -300,66 +291,61 @@ header {
 .phover {
     position: absolute;
     height: 100%;
+    width: 100%;
+    top: 25px;
+    left: 25px;
+    background-color: #f5f5f5;
     z-index: 3;
+    opacity: 0;
+    cursor: pointer;
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
+.poverview:hover .phover{
+    opacity: 1;
+}
+
 .phover h1 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
-    padding: 5px;
+    padding: 25px;
     
 }
+.phover h1 span {
+    font-size: 16px;
+    display: block;
+}
+
 
 /*---------------------------------- 
     footer
 -----------------------------------*/
 
 footer {
-    margin: 0;
-    position: relative;
-    display: inline-block;
-    background-color: #718166;
-    width: 100%;
-    float: left;
-    z-index: 1
+    margin: 0px 6% 0px 6%;
+}
+
+footer p {
+    padding-bottom: 25px;
+}
+
+footer img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .footer {
-    display: inline-block;
-    width: 100%;
-}
-
-.footerkontakt {
+    position: relative;
+    width: 30%;
     float: left;
-    
+    margin: 0px 5% 50px 0px;
+    bottom: 0;
 }
 
-.footerkontakt p {
-    color: #fff;
-    margin: 40px;
-}
-
-.footerkontakt a,
-#impressum p{
-    color: #fff;
-}
-
-.footernav {
-    float: right;
-    margin: 40px 80px 40px 40px;
-}
-
-.footernav ul {
-    margin: 0;
-    display: inline-block;
-    padding: 0;
-}
-
-footer a{
-    color: #fff;
-    margin: 0;
+.last{
+    margin: 0px 0px 80px 0px;
 }
 
 .impressum {
