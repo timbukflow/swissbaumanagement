@@ -16,6 +16,7 @@
     
     <section class="container">
         <article class="gridone inview poverview">
+            
             <img src="img/swiss-baumanagement-neubau-mfh-geschaeftshaus-polygon-bottighofen-thurgau-aussenansicht-westen.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
             <div class="phover">
                 <h1 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h1>

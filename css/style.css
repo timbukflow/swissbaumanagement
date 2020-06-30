@@ -295,32 +295,20 @@ header {
     object-fit: cover; 
 	width: 100%; 
 	height: 100%;
-    z-index: 2;
 }
 
 .phover {
     position: absolute;
     height: 100%;
-    right: 0;
-    z-index: 1;
+    z-index: 3;
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
 }
 
 .phover h1 {
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     padding: 5px;
-    writing-mode:vertical-lr;
-}
-
-.poverview:hover .phover {
-    right: -30px; 
-}
-
-.phover h2 {
-    padding: 50px;
-    margin: 0;
     
 }
 
