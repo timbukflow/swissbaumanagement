@@ -15,30 +15,95 @@
     <?php include 'header.php'; ?>
     
     <section class="container">
-        <article class="gridone inview poverview">
-            
-            <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
-            <div class="phover">
-                <h1 class="projectdescription">Neubau MFH Eggli <span>Abtwil St.Gallen</span> </h1>
+        <div class="gridone">
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc">
+                    <div class="inview"></div>
+                    <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg" alt="titel" >
+                </div>
             </div>
-        </article>
-        <article class="gridtwo inviewr last poverview">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>
-            <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-baumgartenweg.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
-        </article>
-        <article class="gridoneheight inviewb poverview">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>
-            <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="Neubau MFH Eggli Abtwil St.Gallen" width="100%" height="auto">
-        </article>
-        <article class="gridone">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
-        </article>
-        <article class="gridone inview">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
-        </article>
-        <article class="gridone last">
-            <h2 class="projectdescription">Neubau MFH Eggli Abtwil St.Gallen </h2>             
-        </article>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="titel" >
+                </div>
+            </div>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc short">
+                    <div class="inview short"></div>
+                        <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                </div>
+            </div>
+        </div>
+        <div class="gridone">
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc short">
+                    <div class="inview short"></div>
+                    <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                </div>
+            </div>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc">
+                    <div class="inview"></div>
+                    <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-baumgartenweg.jpg" alt="titel" >
+                </div>
+            </div>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc short">
+                    <div class="inview short"></div>
+                        <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                </div>
+            </div>
+        </div>
+        <div class="gridone">
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc">
+                    <div class="inview"></div>
+                    <img src="img/baumgarten-freudenau-goldach-mietwohnung-3-5-zimmer-erdgeschoss-wohnung.jpg" alt="titel" >
+                </div>
+            </div>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                </div>
+                <div class="imgc short">
+                    <div class="inview short"></div>
+                        <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                </div>
+            </div>
+            <div class="gridcontainer">
+                <div class="description">
+                    <h2>ich bin die projeltbeschreibung</h2>
+                </div>
+                <div class="imgc">
+                    <div class="inview"></div>
+                    <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg" alt="titel" >
+                </div>
+            </div>  
+        </div>
+        
+        
     </section>
     
     <?php include 'footer.php'; ?>    

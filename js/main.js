@@ -19,35 +19,9 @@ $(document).ready(function () {
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             if( bottom_of_window > bottom_of_object ) {
-                $(this).addClass('inview-fade');
+                $(this).addClass('fade');
             } else {
-                $(this).removeClass('inview-fade');
-            }
-        }); 
-    }).scroll();
-    
-    $(window).scroll(function() {
-        $('.inviewr').each(function(i) {
-            var bottom_of_object = $(this).offset().top;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            if( bottom_of_window > bottom_of_object ) {
-                $(this).addClass('inviewr-fade');
-            } else {
-                $(this).removeClass('inviewr-fade');
-            }
-        }); 
-    }).scroll();
-    
-    $(window).scroll(function() {
-        $('.inviewb').each(function(i) {
-            var bottom_of_object = $(this).offset().top;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            if( bottom_of_window > bottom_of_object ) {
-                $(this).addClass('inviewb-fade');
-            } else {
-                $(this).removeClass('inviewb-fade');
+                $(this).removeClass('fade');
             }
         }); 
     }).scroll();
