@@ -6,7 +6,7 @@ $(document).ready(function () {
     // Navigation //
     
     $('#navburger').click(function(){
-        $('.nav').stop(true).fadeToggle(500);
+        $('.nav').stop(true).toggleClass('navin');
 		$('.navburgeron').stop(true).toggleClass('navshow');
         $('.nav ul').stop(true).toggleClass('in');
 	});
@@ -26,6 +26,14 @@ $(document).ready(function () {
         }); 
     }).scroll();
     
+    
+    // Accordion
+    
+     $('.accTitle').click(function() {        
+        $accordion_content = $(this).next('.accList');
+        $('.accList').not($accordion_content).slideUp(400);
+        $accordion_content.stop(true, false).slideToggle(400);
+    });
     
     // impressum //
 

@@ -28,8 +28,8 @@ h1, h2, p, a {
     font-weight: 400;
     font-style: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
-    font-size: 18px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.35;
     text-align: left;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -41,33 +41,49 @@ h1, h2, p, a {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 0px;
     margin-bottom: 40px;
 }
 
+h1 span {
+    display: block;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
     line-height: 1.5;
     letter-spacing: 0.75px;
 }
 
-figure {
-    margin-bottom: 80px;
+ul {
+    padding: 0;
 }
 
-figcaption {
-    font-size: 14px;
-    padding: 15px 20px;
+li {
+    list-style-type: none;
 }
+
+li.overtitle {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
 
 /*---------------------------------- 
     header
 -----------------------------------*/
 header {
-    margin: 60px 0px 0px 80px;
+    margin: 40px 90px 0px 10px;
+    width: calc(100% - 100px);
+}
+
+.logo {
+    padding: 0 30px 15px 30px;
 }
 
 /*---------------------------------- 
@@ -78,7 +94,7 @@ header {
     width: 30px;
     height: 21px;
     position: fixed;
-    top: 60px;
+    top: 40px;
     right: 40px;
     cursor: pointer;
     z-index: 11;
@@ -118,7 +134,7 @@ header {
     width: 30px;
     height: 120px;
     position: fixed;
-    top: 80px;
+    top: 60px;
     right: 40px;
     cursor: pointer;
     z-index: 11;
@@ -132,11 +148,9 @@ header {
     background: #646464;
     opacity: 0;
     right: 0;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    transition-delay: 0.25s;
+    transition: all 0.4s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.1s;
 }
 
 #navburger span.short,
@@ -176,19 +190,24 @@ header {
 
 
 .nav {
-    background-color: #f5f5f5;
+    background: rgb(200,200,200);
     height: 100vh;
-    width: 100%;
+    width: 0;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 10;
-    display: none;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.4s;
     
 }
 
-.logo {
-    margin: 60px 0px 0px 80px;
+.navin {
+    width: 66.6%;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.2s;
 }
 
 .nav ul {
@@ -196,22 +215,30 @@ header {
     margin: 0;
     text-align: right;
     padding: 0;
-    top: 56px;
+    top: 76px;
     right: 110px;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-    transition-delay: 0.25s;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.4s;
 }
 
 .nav ul.in {
     opacity: 0;
     right: 80px;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.2s;
 }
-
 
 .nav li {
     list-style-type: none;
     line-height: 40px;
+    transition: all 0.25s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+}
+
+.nav li:hover {
+    padding-right: 10px;
 }
 
 /*---------------------------------- 
@@ -234,10 +261,25 @@ header {
     float: left;
 }
 
+.gridtwo {
+    width: 66.6%;
+    float: right;
+}
+
+.grid50 {
+    width: 50%;
+    float: left;
+}
+
 .gridcontainer {
     padding: 0 30px 90px 30px;
     float: left;
     width: 100%;
+}
+
+.gridtwoproject {
+    width: 66.6%;
+    float: left;
 }
 
 .description {
@@ -250,9 +292,8 @@ header {
     transform: rotate(180deg);
     height: 600px;
     margin: 0;
-    padding: 0px 12px;
-    font-size: 14px;
-    font-weight: 600;
+    padding: 5px 12px;
+    font-size: 16px;
 }
 
 .infoc {
@@ -260,7 +301,14 @@ header {
     width: 90%;
     float: left;
 }
-    
+   
+.imgproject {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden; 
+}
+
 .imgc {
     position: relative;
     width: 90%;
@@ -273,7 +321,7 @@ header {
     transform: scale(1.25,1.25)
 }
 
-.imgc img {
+.imgc img, .imgproject img {
     position: absolute;
     top:0;
     object-fit: cover; 
@@ -290,8 +338,8 @@ header {
     background-color: #fff;
     z-index: 2;
     position: absolute;
-    -webkit-transition: 1s ease-out;
-    transition: 1s ease-out;
+    transition: all 0.75s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
     transition-delay: 0.5s;
 }
 
@@ -307,44 +355,43 @@ header {
     height: 0px;
 }
 
+/*---------------------------------- 
+    accordion
+-----------------------------------*/
 
-
-
-
-
-
-.poverview img {
-    position: absolute;
-    top:0;
-    object-fit: cover; 
-	width: 100%; 
-	height: 100%;
+.accordion {
+    position: relative;
 }
 
-.phover {
-    position: absolute;
-    width: 100%;
-    bottom: -100px;
-    background-color: #fff;
+.accTitle {
+    border-bottom: #646464 1px solid;
+    padding: 17px 0px 20px;
+    margin-bottom: 0;
     cursor: pointer;
-    -webkit-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
+    transition: all 0.25s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
 }
 
-.poverview:hover .phover{
-    bottom: 0;
+.accTitle:hover {
+    padding-left: 15px;  
 }
 
-.phover h1 {
-    font-size: 22px;
+.accordion p {
     margin: 0;
-    padding: 25px;
+    padding: 25px 75px 45px 0px;
+}
+
+.accordion h2 {
+    margin-bottom: 0;
+}
+
+.accList {
+    display: none;
     
 }
-.phover h1 span {
-    font-size: 16px;
-    display: block;
-}
+
+
+
 
 
 /*---------------------------------- 
@@ -352,11 +399,8 @@ header {
 -----------------------------------*/
 
 footer {
-    margin: 0px 6% 0px 6%;
-}
-
-footer p {
-    padding-bottom: 25px;
+    margin: 60px 90px 0px 10px;
+    width: calc(100% - 100px);
 }
 
 footer img {
@@ -366,16 +410,13 @@ footer img {
 }
 
 .footer {
+    padding: 0 30px 15px 30px;
     position: relative;
-    width: 30%;
-    float: left;
-    margin: 0px 5% 50px 0px;
-    bottom: 0;
 }
 
-.last{
-    margin: 0px 0px 80px 0px;
-}
+
+
+
 
 .impressum {
     color: #fff;

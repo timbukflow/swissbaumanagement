@@ -1,5 +1,5 @@
 <header>
-    <div>
+    <div class="logo">
         <a href="index" target="_top">
             <img src="img/swiss-baumanagement-logo.svg" alt="swiss baumanagement logo" width="265" height="auto"/>
         </a>
@@ -40,16 +40,10 @@
         </div>
         
         <div class="nav">
-            <div class="logo">
-                <a href="index" target="_top">
-                    <img src="img/swiss-baumanagement-logo.svg" alt="swiss baumanagement logo" width="265" height="auto"/>
-                </a>
-            </div>
             <ul class="in">
-                <li><a href="leistung" href="#stress">Leistung</a></li>
-                <li><a href="projekte" href="#konzept">Projekte</a></li>
-                <li><a href="uberuns">&Uuml;ber uns</a></li>
-                <li><a href="kontakt">Kontakt</a></li>
+                <li><a href="uberuns">Wir</a></li>
+                <li><a href="projekte">Projekte</a></li>
+                <li><a href="leistungen">Leistungen</a></li>
             </ul>
         </div>
     </nav>
