@@ -9,6 +9,7 @@ $(document).ready(function () {
         $('.nav').stop(true).toggleClass('navin');
 		$('.navburgeron').stop(true).toggleClass('navshow');
         $('.nav ul').stop(true).toggleClass('in');
+        $('.navcontact').stop(true).toggleClass('up');
 	});
 
     // Fadin inview //

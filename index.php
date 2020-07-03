@@ -49,6 +49,16 @@
                 </a>
             </div>
             <div class="gridcontainer">
+                <div class="infoc">
+                    <h1>
+                        Kompetente Ansprechpartner, umsichtige Organisatoren, erfahrene Macher, faire Partner.
+                    </h1>
+                    <h2>
+                        Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der perma-nenten Innovation und Weiterbildung zeichnen uns aus.
+                    </h2>
+                </div>
+            </div>
+            <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
                         <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
@@ -98,11 +108,11 @@
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
-                        <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
                     </div>
-                    <div class="imgc short">
-                        <div class="inview short"></div>
-                            <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                    <div class="imgc">
+                        <div class="inview"></div>
+                        <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-baumgartenweg.jpg" alt="titel" >
                     </div>
                 </a>
             </div>
@@ -137,7 +147,7 @@
                         Kompetente Ansprechpartner, umsichtige Organisatoren, erfahrene Macher, faire Partner.
                     </h1>
                     <h2>
-                        Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Baupro-jekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der perma-nenten Innovation und Weiterbildung zeichnen uns aus.
+                        Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der perma-nenten Innovation und Weiterbildung zeichnen uns aus.
                     </h2>
                 </div>
             </div>

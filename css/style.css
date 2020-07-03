@@ -204,7 +204,7 @@ header {
 }
 
 .navin {
-    width: 66.6%;
+    width: 35%;
     transition: all 0.5s cubic-bezier(1,.0,.55,1);
     transition-timing-function: cubic-bezier(1,.00,.55,1);
     transition-delay: 0.2s;
@@ -239,6 +239,24 @@ header {
 
 .nav li:hover {
     padding-right: 10px;
+}
+
+.navcontact {
+    position: fixed;
+    bottom: -50px;
+    opacity: 0;
+    padding: 0 30px 35px 40px;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.4s;
+}
+
+.navcontact.up {
+    bottom: 0px;
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.4s;
 }
 
 /*---------------------------------- 
@@ -318,7 +336,7 @@ header {
 }
 
 .imgc:hover img {
-    transform: scale(1.25,1.25)
+    transform: scale(1.15,1.15)
 }
 
 .imgc img, .imgproject img {
@@ -338,9 +356,9 @@ header {
     background-color: #fff;
     z-index: 2;
     position: absolute;
-    transition: all 0.75s cubic-bezier(1,.0,.55,1);
+    transition: all 1s cubic-bezier(1,.0,.55,1);
     transition-timing-function: cubic-bezier(1,.00,.55,1);
-    transition-delay: 0.5s;
+    transition-delay: 0.75s;
 }
 
 .short, .description h2.short {
@@ -389,9 +407,6 @@ header {
     display: none;
     
 }
-
-
-
 
 
 /*---------------------------------- 

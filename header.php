@@ -45,7 +45,13 @@
                 <li><a href="projekte">Projekte</a></li>
                 <li><a href="leistungen">Leistungen</a></li>
             </ul>
+            <div class="navcontact">
+                <a href="tel:0712801827">+41 71 280 18 27</a><br>
+                <a href="mailto:info@swiss-baumanagement.ch" target="_top">info@swiss-baumanagement.ch</a>
+            </div>
+            
         </div>
+        
     </nav>
 </header>
         
