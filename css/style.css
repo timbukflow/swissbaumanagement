@@ -327,7 +327,7 @@ header {
     overflow: hidden; 
 }
 
-.imgc {
+.imgc, .map {
     position: relative;
     width: 90%;
     height: 600px;
@@ -373,6 +373,16 @@ header {
     height: 0px;
 }
 
+.pfeil {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 15px;
+    transition: all 0.25s cubic-bezier(1,.0,.55,1);
+    transition-timing-function: cubic-bezier(1,.00,.55,1);
+    transition-delay: 0.25s;
+}
+
 /*---------------------------------- 
     accordion
 -----------------------------------*/
@@ -394,6 +404,10 @@ header {
     padding-left: 15px;  
 }
 
+.accTitle:hover .pfeil{
+    margin-right: 0px;  
+}
+
 .accordion p {
     margin: 0;
     padding: 25px 75px 45px 0px;
@@ -408,6 +422,14 @@ header {
     
 }
 
+/*---------------------------------- 
+    map
+-----------------------------------*/
+
+#map {
+        height: 800px;
+        width: 100%;
+       }
 
 /*---------------------------------- 
     footer

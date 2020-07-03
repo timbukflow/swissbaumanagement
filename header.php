@@ -41,7 +41,7 @@
         
         <div class="nav">
             <ul class="in">
-                <li><a href="uberuns">Wir</a></li>
+                <li><a href="wir">Wir</a></li>
                 <li><a href="projekte">Projekte</a></li>
                 <li><a href="leistungen">Leistungen</a></li>
             </ul>
