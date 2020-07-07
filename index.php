@@ -51,11 +51,14 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                        Kompetente Ansprechpartner, umsichtige Organisatoren, erfahrene Macher, faire Partner.
+                        Perfekte Koordination durch höchste Konzentration
                     </h1>
                     <h2>
-                        Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der perma-nenten Innovation und Weiterbildung zeichnen uns aus.
+                        In Partnerschaft mit unseren Bauexperten setzen wir alles daran, Ihre Bauwerke qualitativ hochstehend, budget- und termingerecht zu realisieren. In enger Zusammenarbeit mit den Fachplanern und Unternehmern handeln wir kunden-orientiert und fokussieren auf effiziente Abläufe.
                     </h2>
+                    <a href="wir" target="_top">
+                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+                    </a>
                 </div>
             </div>
             <div class="gridcontainer">
@@ -116,6 +119,17 @@
                     </div>
                 </a>
             </div>
+            <div class="gridcontainer">
+                <a href="...">
+                    <div class="description">
+                        <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                    </div>
+                    <div class="imgc short">
+                        <div class="inview short"></div>
+                            <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="titel" >
+                    </div>
+                </a>
+            </div>
         </div>
         
         <div class="gridone">
@@ -149,6 +163,9 @@
                     <h2>
                         Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der perma-nenten Innovation und Weiterbildung zeichnen uns aus.
                     </h2>
+                    <a href="leistungen" target="_top">
+                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+                    </a>
                 </div>
             </div>
             <div class="gridcontainer">
@@ -161,7 +178,18 @@
                         <img src="img/baumgarten-freudenau-goldach-mietwohnung-3-5-zimmer-erdgeschoss-wohnung.jpg" alt="titel" >
                     </div>
                 </a>
-            </div>  
+            </div>
+            <div class="gridcontainer">
+                <a href="...">
+                    <div class="description">
+                        <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                    </div>
+                    <div class="imgc short">
+                        <div class="inview short"></div>
+                            <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                    </div>
+                </a>
+            </div>
         </div>   
     </section>
     

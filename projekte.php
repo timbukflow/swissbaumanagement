@@ -15,11 +15,11 @@
     <?php include 'header.php'; ?>
     <section class="container">
         <div class="projectcontroller">
-            <h2 id="project">Projekte</h2>
-            <h2 id="neubau">Neubau</h2>
-            <h2 id="umbau">Umbau</h2>
+            <h2 id="project" class="add proactiv">Projekte</h2>
+            <h2 id="neubau" class="add">Neubau</h2>
+            <h2 id="umbau" class="add">Umbau</h2>
         </div>
-        <div class="gridone umbau">
+        <div class="gridpro umbau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -32,7 +32,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone umbau">
+        <div class="gridpro umbau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -45,7 +45,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone neubau">
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -58,7 +58,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone umbau">
+        <div class="gridpro umbau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -71,7 +71,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone neubau">
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -84,7 +84,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone neubau">
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -97,7 +97,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone umbau">
+        <div class="gridpro umbau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -110,7 +110,7 @@
                 </a>
             </div>
         </div>
-        <div class="gridone neubau">
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
@@ -123,7 +123,33 @@
                 </a>
             </div>
         </div>
-        <div class="gridone neubau">
+        <div class="gridpro neubau">
+            <div class="gridcontainer">
+                <a href="...">
+                    <div class="description">
+                        <h2 class="shortpro">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                    </div>
+                    <div class="imgc shortpro">
+                        <div class="inview shortpro"></div>
+                            <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="gridpro umbau">
+            <div class="gridcontainer">
+                <a href="...">
+                    <div class="description">
+                        <h2 class="shortpro">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                    </div>
+                    <div class="imgc shortpro">
+                        <div class="inview shortpro"></div>
+                            <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">

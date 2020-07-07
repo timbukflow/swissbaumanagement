@@ -39,17 +39,23 @@ $(document).ready(function () {
     // Projektcontroller //
     
     $('#neubau').click(function(){
-        $('.gridone').removeClass('projecthide');
+        $('.gridpro').removeClass('projecthide');
+        $('.add').removeClass('proactiv');
         $('.umbau').addClass('projecthide');
+        $('#neubau').addClass('proactiv');
 	});
     
     $('#umbau').click(function(){
-        $('.gridone').removeClass('projecthide');
+        $('.gridpro').removeClass('projecthide');
+        $('.add').removeClass('proactiv');
         $('.neubau').addClass('projecthide');
+        $('#umbau').addClass('proactiv');
 	});
     
     $('#project').click(function(){
-        $('.gridone').removeClass('projecthide');
+        $('.gridpro').removeClass('projecthide');
+        $('.add').removeClass('proactiv');
+        $('#project').addClass('proactiv');
 	});
     
     // impressum //
