@@ -86,11 +86,18 @@
                     ]
                 });
             
-            var marker = new google.maps.Marker({
+            var icon = { 
+                url: "img/marker.svg",
+                scaledSize: new google.maps.Size(40, 40),
+                origin: new google.maps.Point(0,0),
+                anchor: new google.maps.Point(0, 0)
+            }; 
+
+            var marker = new google.maps.Marker({ 
                 position: swissbaumanagement, 
-                map: map,
-                icon: "img/marker.svg",
-            });
+                map: map, 
+                icon: icon 
+            });    
         }
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQn8EflPEw6mWtOisyIfTdk3rnt2TfYCc&callback=initMap"

@@ -36,6 +36,22 @@ $(document).ready(function () {
         $accordion_content.stop(true, false).slideToggle(400);
     });
     
+    // Projektcontroller //
+    
+    $('#neubau').click(function(){
+        $('.gridone').removeClass('projecthide');
+        $('.umbau').addClass('projecthide');
+	});
+    
+    $('#umbau').click(function(){
+        $('.gridone').removeClass('projecthide');
+        $('.neubau').addClass('projecthide');
+	});
+    
+    $('#project').click(function(){
+        $('.gridone').removeClass('projecthide');
+	});
+    
     // impressum //
 
     $('.impressum').click(function() {

@@ -23,7 +23,7 @@
                 <a data-toggle="#impressum">AGB</a><br>
                 <a data-toggle="#impressum">Impressum</a>
             </p>
-            <img src="img/wir-machen-profis-lehrbetrieb-logo.jpg" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
+            <img src="img/wir-machen-profis-lehrbetrieb-logo.png" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
         </div>
     </div>
     
