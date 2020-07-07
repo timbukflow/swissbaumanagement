@@ -568,8 +568,8 @@ footer img {
     position: fixed;
     bottom: 0;
     left: 0;
-	background-color: #f2f2f2;
-	padding: 20px;
+    width: 100%;
+	background-color: #222;
 	text-align: right;
 	z-index: 200;
 }
@@ -579,18 +579,13 @@ footer img {
 	cursor: pointer;
     font-size: 15px;
     display: inline-block;
-    margin: 0px 3px;
+    margin: 0;
+    padding: 14px;
 }
 
 #acceptga {
-	text-decoration: none !important;
-	background-color: #718166;
-	color: #fff !important;
-	font-weight: normal !important;
-    padding: 0px 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+	text-decoration: none;
+	background-color: #ffd400;
 }
 
 
