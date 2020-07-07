@@ -349,7 +349,7 @@ header {
 }
 
 .imgc:hover img {
-    transform: scale(1.15,1.15)
+    height: 110%
 }
 
 .imgproject {
@@ -361,9 +361,9 @@ header {
 
 .imgc img, .imgproject img {
     position: absolute;
-    top:0;
-    object-fit: cover; 
-	width: 100%; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
 	height: 100%;
     -webkit-transition: 2s ease-out;
     transition: 2s ease-out;
