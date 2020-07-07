@@ -126,7 +126,7 @@
                     </div>
                     <div class="imgc short">
                         <div class="inview short"></div>
-                            <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="titel" >
+                            <img src="img/swiss-baumanagement-neubau-mfh-geschaeftshaus-polygon-bottighofen-thurgau-aussenansicht-westen.jpg" alt="titel" >
                     </div>
                 </a>
             </div>

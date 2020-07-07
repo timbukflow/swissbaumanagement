@@ -450,7 +450,7 @@ header {
     top: 298px;
     right: 32px;
     float: left;
-    
+    width: 30px;
 }
 
 .projectcontroller h2 {
@@ -459,6 +459,7 @@ header {
     margin: 0;
     padding: 15px 0;
     cursor: pointer;
+    float: left;
 }
 
 .proactiv {
