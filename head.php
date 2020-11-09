@@ -33,11 +33,11 @@
 <meta name="twitter:image:alt" content="Die Swiss Baumanagement AG ist ein Team von Bauexperten.">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Baumgarten">
+<meta name="apple-mobile-web-app-title" content="Swiss Baumanagement AG">
 <meta name="theme-color" content="#ffffff">
 <meta name="format-detection" content="telephone=no">
 <meta property="business:contact_data:street_address" content="Flurhofstrasse 160">
-<meta property="business:contact_data:locality" content="t.Gallen">
+<meta property="business:contact_data:locality" content="St.Gallen">
 <meta property="business:contact_data:region" content="9000">
 <meta property="business:contact_data:postal_code" content="9000">
 <meta property="business:contact_data:country_name" content="Switzerland">
