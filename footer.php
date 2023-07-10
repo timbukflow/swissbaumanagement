@@ -20,8 +20,8 @@
         <div class="gridcontainer footer">
             <p>
                 <br>
-                <a data-toggle="#impressum">AGB</a><br>
-                <a data-toggle="#impressum">Impressum</a>
+                <a class="data-target" data-target="#agb">AGB</a><br>
+                <a class="data-target" data-target="#impressum">Impressum</a>
             </p>
             <img src="img/wir-machen-profis-lehrbetrieb-logo.png" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
         </div>
@@ -30,13 +30,16 @@
     
     
     
-        <div id="impressum">    
-            <p><b>Design &#38; Interaction:</b><br>Schwizer &#38; Schlatter GmbH<br>Davidstrasse 45<br>9000 St.Gallen<br>
-                <a class="linkw" href="https://www.schwizerschlatter.com" target="_blank">www.schwizerschlatter.com</a>
+        <div class="target-footer" id="impressum">    
+            <p>
+                Design &amp; Code:<br>
+                Schwizer Design GmbH<br>
+                <a class="ssweb" href="https://goo.gl/maps/bBmLDGMJSYqbwbmj8">Gallusstrasse 43<br>9000 St. Gallen</a><br>
+                <a class="ssweb" href="https://schwizerdesign.ch/" target="_blank">www.schwizerdesign.ch</a>
             </p>
             <p class="disclamer">© 2019 Bauherrengemeinschaft Baumgarten. All rights reserved | <span class="linkw disclamer impressum" data-toggle="#datenschutz">Disclamer</span></p>
         </div>
-        <div id="datenschutz">
+        <div class="target-footer" id="agb">
             <p>
             Die Website www.baumgarten-goldach.ch dient der Informationsvermittlung über das Überbauungsprojekt Baumgarten in Goldach.
                 

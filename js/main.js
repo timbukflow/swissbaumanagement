@@ -1,8 +1,5 @@
 $(document).ready(function () {
     
-    setTimeout(function(){$('#loader').fadeOut(800)},800);
-    
-    
     // Navigation //
     
     $('#navburger').click(function(){
@@ -59,15 +56,20 @@ $(document).ready(function () {
 	});
     
     // impressum //
-
-    $('.impressum').click(function() {
-        var totoggle = $(this).attr("data-toggle");
-        $(totoggle).slideToggle(500);
-        $(totoggle).next().hide();
+    $('.data-target').click(function() {
+        var $target = $($(this).data("target"));
         
-        if ($(totoggle).is(":visible")) {
-            $('html,body').animate({scrollTop:$(totoggle).offset().top}, 1000);
-        }     
+        if ($target.is(":visible")) {
+            $target.slideUp(300);
+        } else {
+            $('.target-footer').slideUp(300);
+            setTimeout(function() {
+                $target.slideDown(300, function() {
+                    $('html,body').animate({scrollTop: $target.offset().top}, 600);
+                });
+            }, 300);
+        }
     });
+    
     
 });
