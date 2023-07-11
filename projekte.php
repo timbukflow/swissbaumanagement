@@ -19,15 +19,15 @@
             <h2 id="neubau" class="add">Neubau</h2>
             <h2 id="umbau" class="add">Umbau</h2>
         </div>
-        <div class="gridpro umbau">
+        <div class="gridpro neubau">
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
-                        <h2 class="shortpro">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2 class="shortpro">Neubau EFH | Rinderweid Roggwil</h2>
                     </div>
                     <div class="imgc shortpro">
                         <div class="inview shortpro"></div>
-                            <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                        <img src="img/swiss-baumanagement-neubau-efh-roggwil-01.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
                     </div>
                 </a>
             </div>

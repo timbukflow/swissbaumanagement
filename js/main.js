@@ -1,7 +1,6 @@
 $(document).ready(function () {
     
     // Navigation //
-    
     $('#navburger').click(function(){
         $('.nav').stop(true).toggleClass('navin');
 		$('.navburgeron').stop(true).toggleClass('navshow');
@@ -10,31 +9,31 @@ $(document).ready(function () {
 	});
 
     // Fadin inview //
-    
     $(window).scroll(function() {
-        $('.inview').each(function(i) {
-            var bottom_of_object = $(this).offset().top;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            if( bottom_of_window > bottom_of_object ) {
+        var $inview = $('.inview');
+        var bottomwindow = $(window).scrollTop() + $(window).height();
+        
+        $inview.each(function() {
+            var bottomobject = $(this).offset().top;
+    
+            if (bottomwindow > bottomobject) {
                 $(this).addClass('fade');
             } else {
                 $(this).removeClass('fade');
             }
         }); 
-    }).scroll();
-    
+    }).scroll();    
     
     // Accordion
+    $('.accTitle').click(function() {
+        var $acc = $(this).next('.accList');
+        var $accup = $('.accList').not($acc);
     
-     $('.accTitle').click(function() {        
-        $accordion_content = $(this).next('.accList');
-        $('.accList').not($accordion_content).slideUp(400);
-        $accordion_content.stop(true, false).slideToggle(400);
+        $accup.slideUp(400);
+        $acc.stop(true, false).slideToggle(400);
     });
     
     // Projektcontroller //
-    
     $('#neubau').click(function(){
         $('.gridpro').removeClass('projecthide');
         $('.add').removeClass('proactiv');

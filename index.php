@@ -16,24 +16,24 @@
     <section class="container">
         <div class="gridone">
             <div class="gridcontainer">
-                <a href="mfh-eggli-abtwil-stgallen">
+                <a href="neubau-efh-rinderweid-roggwil">
                     <div class="description">
-                        <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2>Neubau EFH | Rinderweid Roggwil</h2>
                     </div>
                     <div class="imgc">
                         <div class="inview"></div>
-                        <img src="img/baumgarten-freudenau-goldach-mietwohnung-eigentumswohnung-obergeschoss-haus-b-4-5-zimmerwohnung.jpg" alt="titel" >
+                        <img src="img/swiss-baumanagement-neubau-efh-roggwil-01.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
                     </div>
                 </a>
             </div>
             <div class="gridcontainer">
-                <a href="...">
+                <a href="neubau-efh-lehnstrasse-st-gallen">
                     <div class="description">
-                        <h2 class="long">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2 class="long">Neubau EFH |  Lehnstrasse St. Gallen</h2>
                     </div>
                     <div class="imgc long">
                         <div class="inview long"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-eggli-abtwil-stgallen-aussenansicht-02.jpg" alt="titel" >
+                        <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-01.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-01" >
                     </div>
                 </a>
             </div>
@@ -64,7 +64,7 @@
             <div class="gridcontainer">
                 <a href="...">
                     <div class="description">
-                        <h2>Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2>...</h2>
                     </div>
                     <div class="imgc">
                         <div class="inview"></div>
@@ -76,13 +76,13 @@
         
         <div class="gridone">
             <div class="gridcontainer">
-                <a href="...">
+                <a href="neubau-mfh-weinfelderstrasse-amriswil.php">
                     <div class="description">
-                        <h2 class="short">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2 class="short">Neubau 3 MFH | Weinfelderstrasse Amriswil</h2>
                     </div>
                     <div class="imgc short">
                         <div class="inview short"></div>
-                        <img src="img/adlerweg-wittenbach-mehrfamilienhaus-wohnungen-balkon.jpg" alt="titel" >
+                        <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-01.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-01" >
                     </div>
                 </a>
             </div>
@@ -134,13 +134,13 @@
         
         <div class="gridone">
             <div class="gridcontainer">
-                <a href="...">
+                <a href="neubau-mfh-rebenpark-arbon">
                     <div class="description">
-                        <h2 class="long">Neubau MFH Eggli | Abtwil St.Gallen</h2>
+                        <h2 class="long">Neubau 3 MFH | Rebenpark Arbon</h2>
                     </div>
                     <div class="imgc long">
                         <div class="inview long"></div>
-                        <img src="img/baumgarten-freudenau-goldach-mietwohnung-3-5-zimmer-erdgeschoss-wohnung.jpg" alt="titel" >
+                        <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-01.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon-01" >
                     </div>
                 </a>
             </div>
