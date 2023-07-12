@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau EFH Roggwil</title>
-    <meta name="description" content="Neubau, Einfamilienhaus EFH, Rinderweid, 9325 Roggwil">
+    <title>Swiss Baumanagement | Neubau EFH Rinderweid Roggwil</title>
+    <meta name="description" content="Neubau, Einfamilienhaus EFH, Rinderweid Roggwil">
     <?php include 'head.php'; ?>
 </head>
   
@@ -12,9 +12,9 @@
     <section class="container">
         <div class="gridtwoproject">
             <div class="gridcontainer">
-                <div class="imgproject long">
-                    <div class="inview long"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-roggwil-01.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-efh-rinderweid-roggwil-01.jpg" alt="swiss-baumanagement-neubau-efh-rinderweid-roggwil" >
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                        Neubau EFH Roggwil
+                        Neubau EFH <br> Rinderweid Roggwil
                     </h1>
                     <h2>
                         <ul>
@@ -45,25 +45,25 @@
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-roggwil-02.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
+                    <img src="img/swiss-baumanagement-neubau-efh-rinderweid-roggwil-02.jpg" alt="swiss-baumanagement-neubau-efh-rinderweid-roggwil" >
                 </div>
             </div>
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-roggwil-03.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
+                    <img src="img/swiss-baumanagement-neubau-efh-rinderweid-roggwil-03.jpg" alt="swiss-baumanagement-neubau-efh-rinderweid-roggwil" >
                 </div>
             </div>
         </div>
         <div class="grid100">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-roggwil-04.jpg" alt="swiss-baumanagement-neubau-efh-roggwil" >
+                    <img src="img/swiss-baumanagement-neubau-efh-rinderweid-roggwil-04.jpg" alt="swiss-baumanagement-neubau-efh-rinderweid-roggwil" >
                 </div>
             </div>
         </div>       

@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
     <title>Swiss Baumanagement | Neubau 3 MFH Weinfelderstrasse Amriswil</title>
-    <meta name="description" content="Neubau, Einfamilienhaus EFH, Rinderweid, 9325 Roggwil">
+    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Weinfelderstrasse Amriswil">
     <?php include 'head.php'; ?>
 </head>
   
@@ -12,8 +12,8 @@
     <section class="container">
         <div class="gridtwoproject">
             <div class="gridcontainer">
-                <div class="imgproject long">
-                    <div class="inview long"></div>
+                <div class="imgproject">
+                    <div class="inview"></div>
                     <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-01.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-01" >
                 </div>
             </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
                     <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-02.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-02" >
                 </div>
@@ -53,7 +53,7 @@
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
                     <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-03.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-03" >
                 </div>
@@ -61,7 +61,7 @@
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
                     <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-04.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-04" >
                 </div>
@@ -69,9 +69,17 @@
         </div>
         <div class="grid50">
             <div class="gridcontainer">
-                <div class="imgproject short">
+                <div class="imgproject">
                     <div class="inview"></div>
                     <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-05.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-05" >
+                </div>
+            </div>
+        </div>
+        <div class="grid100">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-06.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-06" >
                 </div>
             </div>
         </div>        

@@ -55,20 +55,13 @@ $(document).ready(function () {
 	});
     
     // impressum //
+
     $('.data-target').click(function() {
         var $target = $($(this).data("target"));
-        
-        if ($target.is(":visible")) {
-            $target.slideUp(300);
-        } else {
-            $('.target-footer').slideUp(300);
-            setTimeout(function() {
-                $target.slideDown(300, function() {
-                    $('html,body').animate({scrollTop: $target.offset().top}, 600);
-                });
-            }, 300);
-        }
-    });
-    
-    
+        $target.slideToggle(500, function() {
+            if ($target.is(":visible")) {
+                $('html,body').animate({scrollTop: $target.offset().top}, 500);
+            }
+        });
+      }); 
 });
