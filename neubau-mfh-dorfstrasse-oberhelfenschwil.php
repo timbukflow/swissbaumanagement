@@ -74,6 +74,12 @@
                     <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-05.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-05" >
                 </div>
             </div>
+        </div>
+        <div class="nextproject">
+            <a href="umbau-mfh-okenfinerstrasse-taegerwilen" target="_top">
+                <h2>Nächstes Projekt</h2>
+                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+            </a>
         </div>       
     </section>
     

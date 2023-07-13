@@ -68,7 +68,13 @@
                     </div>
                 </div>
             </div>
-        </div>     
+        </div>
+        <div class="nextproject">
+            <a href="umbau-mfh-konstanzerstrasse-kreuzlingen" target="_top">
+                <h2>Nächstes Projekt</h2>
+                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+            </a>
+        </div>      
     </section>
     
     <?php include 'footer.php'; ?>    

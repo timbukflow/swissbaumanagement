@@ -19,7 +19,7 @@ h1, h2, p, a {
     font-weight: 400;
     font-style: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.35;
     text-align: left;
     text-rendering: optimizeLegibility;
@@ -255,10 +255,9 @@ header {
 }
 
 .gridpro {
-    width: 25%;
+    width: 20%;
     float: left;
     transition: all 0.5s cubic-bezier(1,.0,.55,1);
-    transition-timing-function: cubic-bezier(1,.00,.55,1);
 }
 
 .gridtwo {
@@ -288,6 +287,28 @@ header {
     width: 100%;
 }
 
+.nextproject {
+    padding: 0 30px 60px 30px;
+    width: 30%;
+    display: inline-block;
+}
+
+.nextproject h2 {
+    display: inline-block;
+    margin: 0;
+    padding-right: 20px;
+    transition: padding 0.25s ease-in-out;
+}
+
+.nextproject h2:hover {
+    padding-right: 40px;
+}
+
+.pfeilnext {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
 
 .gridcontainer a {
     cursor: pointer;
@@ -365,24 +386,19 @@ header {
     z-index: 2;
     position: absolute;
     transition: height 1s cubic-bezier(1,.0,.55,1);
-    transition-delay: 0.75s;
+    transition-delay: 0.25s;
 }
 
 .short, .description h2.short {
     height: 500px;
 }
 
-/* .long, .description h2.long {
-    height: 800px;
-} */
-
 .pfeil {
     width: 30px;
     height: 30px;
     float: right;
     margin-right: 15px;
-    transition: margin-right 0.25s cubic-bezier(1,.0,.55,1);
-    transition-delay: 0.25s;
+    transition: margin-right 0.25s ease-in-out;
 }
 
 .pfeil:hover{
@@ -459,8 +475,8 @@ header {
 }
 
 .shortpro, .description h2.shortpro {
-    height: 450px;
-    color: #fff;
+    height: 400px;
+    color: #646464;
 }
 
 .inview.shortpro {

@@ -82,7 +82,13 @@
                     <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-06.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
                 </div>
             </div>
-        </div>         
+        </div>
+        <div class="nextproject">
+            <a href="neubau-efh-lehnstrasse-st-gallen" target="_top">
+                <h2>Nächstes Projekt</h2>
+                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+            </a>
+        </div>          
     </section>
     
     <?php include 'footer.php'; ?>    

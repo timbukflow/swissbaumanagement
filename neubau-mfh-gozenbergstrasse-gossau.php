@@ -98,6 +98,12 @@
                     <img src="img/swiss-baumanagement-neubau-mfh-gozenbergstrasse-gossau-08.jpg" alt="swiss-baumanagement-neubau-mfh-gozenbergstrasse-gossau" >
                 </div>
             </div>
+        </div>
+        <div class="nextproject">
+            <a href="neubau-mfh-buechenstrasse-staad" target="_top">
+                <h2>Nächstes Projekt</h2>
+                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+            </a>
         </div>         
     </section>
     
