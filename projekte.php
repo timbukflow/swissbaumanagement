@@ -9,7 +9,7 @@
   
 <body class="black">
     <?php include 'header.php'; ?>
-    <section class="container">
+    <section class="container proresp">
         <div class="projectcontroller">
             <h2 id="project" class="add proactiv">Projekte</h2>
             <h2 id="neubau" class="add">Neubau</h2>

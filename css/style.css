@@ -194,7 +194,7 @@ header {
     margin: 0;
     text-align: right;
     padding: 0;
-    top: 76px;
+    top: 100px;
     right: 110px;
     transition: top 0.5s ease-in-out;
     transition-delay: 0.4s;
@@ -207,7 +207,7 @@ header {
 
 .nav li {
     list-style-type: none;
-    line-height: 40px;
+    line-height: 30px;
     transition: all 0.25s cubic-bezier(1,.0,.55,1);
     transition-timing-function: cubic-bezier(1,.00,.55,1);
 }
@@ -289,7 +289,6 @@ header {
 
 .nextproject {
     padding: 0 30px 60px 30px;
-    width: 30%;
     display: inline-block;
 }
 
@@ -346,6 +345,9 @@ header {
     width: 90%;
     float: left;
 }
+.infoc h2 {
+    margin-bottom: 20px;
+}
 
 .imgc, .map {
     position: relative;
@@ -396,8 +398,8 @@ header {
 .pfeil {
     width: 30px;
     height: 30px;
-    float: right;
     margin-right: 15px;
+    float: right;
     transition: margin-right 0.25s ease-in-out;
 }
 
@@ -607,18 +609,75 @@ footer p {
 responsive ipad
 -----------------------------------*/
 
-@media only screen and (max-width: 1270px) {
-.gridcontainer {padding: 0 20px 60px 20px;}
-}
-    
-@media only screen and (max-width: 1130px) {
-.gridcontainer {padding: 0 20px 60px 20px;}
-.short, .description h2.short {height: 300px;}
-.long, .description h2.long {height: 600px;}
-    
+@media only screen and (max-width: 1260px) {
+.gridtwoproject .gridcontainer .imgproject img {height: 600px;}
+.gridtwoproject .gridcontainer .imgproject {justify-content: center; flex-direction: row; }  
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 1000px) {
+h1 {font-size: 24px;}
+h2, p, a {font-size: 16px;}
+.container { margin: 40px 60px 0px 10px; width: calc(100% - 70px);}
+.proresp {margin: 40px 100px 0px 10px; width: calc(100% - 110px);}
+/* header */
+.logo {padding: 0 20px 15px 20px;}
+#navburger, .navburgeron {right: 20px;}
+.nav ul {right: 70px;}
+
+/* start */
+.imgc,.description h2 {height: 450px;}
+.short, .description h2.short {height: 380px;}
+.gridcontainer,.nextproject {padding: 0 20px 40px 20px;}
+.shortpro {height: 400px;}
+.dmap h2 {height: 600px;}
+
+/* wir */
+.gridfull .gridone, .gridfull .gridtwo {width: 100%;}
+.gridfull .resp {display: none;}
+
+/* project */
+.gridpro {width: 33%;}
+
+/* footer */
+.footergrid {align-items: flex-start; flex-direction: column; gap: 10px; padding-bottom: 20px;}
+.footer {padding: 0 20px;}
+footer .gridone {width: 100%;}
+footer img {width: 75px; height: 75px;}
+.target-footer {padding: 10px 20px 20px;}
+
+}
+
+@media only screen and (max-width: 700px) {
+h1 {font-size: 20px;}
+.logo img {width: 230px;}
+.navin {width: 100%;}
+
+.container { margin: 40px 50px 0px 10px; width: calc(100% - 60px);}
+.proresp {margin: 40px 100px 0px 10px; width: calc(100% - 110px);}
+.gridpro {width: 50%;}
+/* start */
+.gridone {width: 100%;}
+.gridpro {width: 50%;}
+.imgc,.description h2 {height: auto}
+.description h2.short {height: auto;}
+.short {height: auto;}
+
+.shortpro {height: 400px;}
+
+}
+
+@media only screen and (max-width: 460px) {
+.logo img {width: 230px;}
+.gridpro {width: 100%;}
+/* start */
+.gridone {width: 100%;}
+.imgc,.description h2 {height: 400px}
+.description h2.short {height: 400px;}
+.short {height: 400px;}
+
+.pfeil {float: none;}
+
+footer img {position: relative;margin-top: 20px;}
  
 #cookiebanner {width: calc(100% - 70px); left: 20px;}
 #cookiebanner.visible {bottom: 60px;}

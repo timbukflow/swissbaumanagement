@@ -9,7 +9,7 @@
   
 <body>
     <?php include 'header.php'; ?>
-    <section class="container">
+    <section class="container gridfull">
         <div class="gridtwo">
             <div class="gridcontainer">
                 <div class="infoc">
@@ -76,7 +76,7 @@
             </div>
         </div>
         
-        <div class="gridone">
+        <div class="gridone resp">
             <div class="gridcontainer">
                 <a href="neubau-efh-lehnstrasse-st-gallen">
                     <div class="description">

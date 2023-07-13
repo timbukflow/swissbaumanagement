@@ -9,7 +9,7 @@
   
 <body>
     <?php include 'header.php'; ?>
-    <section class="container">
+    <section class="container gridfull">
         <div class="gridtwo">
             <div class="gridcontainer">
                 <div class="infoc">
@@ -49,11 +49,11 @@
         <div class="gridone">
             <div class="gridcontainer">
                 <h1><span>Standort</span></h1>
-                    <div class="description">
-                        <h2 class="long">Flurhofstrasse 160 | 9000 St.Gallen</h2>
+                    <div class="description dmap">
+                        <h2>Flurhofstrasse 160 | 9000 St.Gallen</h2>
                     </div>
-                    <div class="map long">
-                        <div class="inview long"></div>
+                    <div class="map ">
+                        <div class="inview "></div>
                         <div id="map"></div>
                     </div>
             </div>
