@@ -671,20 +671,27 @@ h1 {font-size: 20px;}
 .short {height: auto;}
 
 .shortpro {height: 400px;}
-
+/* projekte */
+.gridtwoproject, .grid50, .grid30 {width: 100%;}
+.grid30cont {display: flex;flex-direction: column;}
 }
 
 @media only screen and (max-width: 460px) {
+h1 {font-size: 16px; margin-bottom: 0;}
+h2 {margin-top: 0;}
 .logo img {width: 230px;}
 .gridpro {width: 100%;}
+.gridcontainer.infocresp {padding: 0 0 40px 20px;}
 /* start */
 .gridone {width: 100%;}
-.imgc,.description h2 {height: 400px}
 .description h2.short {height: 400px;}
 .short {height: 400px;}
 
 .pfeil {float: none;}
 
+.accordion p {padding: 25px 10px 45px 0px;}
+
+footer {width: auto; margin: 60px 0px 0px 10px;}
 footer img {position: relative;margin-top: 20px;}
  
 #cookiebanner {width: calc(100% - 40px); left: 20px;}

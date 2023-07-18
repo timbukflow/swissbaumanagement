@@ -11,7 +11,7 @@
     <?php include 'header.php'; ?>
     <section class="container gridfull">
         <div class="gridtwo">
-            <div class="gridcontainer">
+            <div class="gridcontainer infocresp">
                 <div class="infoc">
                     <h1>
                         <span>Wir</span>

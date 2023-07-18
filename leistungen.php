@@ -11,7 +11,7 @@
     <?php include 'header.php'; ?>
     <section class="container gridfull">
         <div class="gridtwo">
-            <div class="gridcontainer">
+            <div class="gridcontainer infocresp">
                 <div class="infoc">
                     <h1>
                         <span>Leistungen</span>
@@ -22,7 +22,7 @@
         </div>
         
          <div class="gridtwo">
-            <div class="gridcontainer">
+            <div class="gridcontainer infocresp">
                 <div class="accordion">
                     <h1 class="accTitle">Machbarkeitsstudien</h1>
                     <div class="accList">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-             <div class="gridcontainer">
+             <div class="gridcontainer infocresp">
                 <div class="accordion">
                     <h1 class="accTitle">Unabhängigkeit</h1>
                     <div class="accList">
