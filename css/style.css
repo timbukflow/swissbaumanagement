@@ -684,8 +684,11 @@ h2 {margin-top: 0;}
 .gridcontainer.infocresp {padding: 0 0 40px 20px;}
 /* start */
 .gridone {width: 100%;}
+.imgc,.description h2 {height: 400px}
 .description h2.short {height: 400px;}
 .short {height: 400px;}
+
+.dmap h2 {height: 600px;}
 
 .pfeil {float: none;}
 
