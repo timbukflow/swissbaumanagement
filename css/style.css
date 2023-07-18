@@ -681,10 +681,6 @@ h1 {font-size: 16px; margin-bottom: 0;}
 h2 {margin-top: 0;}
 .logo img {width: 230px;}
 
-.dmap h2 {height: 600px;}
-.pfeil {float: none;}
-.accordion p {padding: 25px 10px 45px 0px;}
-
 .gridpro {width: 100%;}
 .gridcontainer.infocresp {padding: 0 0 40px 20px;}
 /* start */
@@ -692,6 +688,10 @@ h2 {margin-top: 0;}
 .imgc,.description h2 {height: 400px}
 .description h2.short {height: 400px;}
 .short {height: 400px;}
+
+.dmap h2 {height: 600px;}
+.pfeil {float: none;}
+.accordion p {padding: 25px 10px 45px 0px;}
 
 .gridtwoproject .gridcontainer .imgproject img {height: 280px;}
 
