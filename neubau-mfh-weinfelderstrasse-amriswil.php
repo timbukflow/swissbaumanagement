@@ -75,14 +75,6 @@
                 </div>
             </div>
         </div>
-        <div class="grid100">
-            <div class="gridcontainer">
-                <div class="imgproject">
-                    <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-06.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-06" >
-                </div>
-            </div>
-        </div>
         <div class="nextproject">
             <a href="neubau-mfh-rebenpark-arbon" target="_top">
                 <h2>Nächstes Projekt</h2>

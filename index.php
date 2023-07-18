@@ -39,7 +39,7 @@
                         <h2 class="short">Neubau MFH | Dorfstrasse Oberhelfenschwil</h2>
                     </div>
                     <div class="imgc short">
-                        <div class="inview short"></div>
+                        <div class="inview"></div>
                             <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-title.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil" >
                     </div>
                 </a>
@@ -70,14 +70,14 @@
             </div>
         </div>
         
-        <div class="gridone">
+        <div class="gridone gridsecond">
             <div class="gridcontainer">
                 <a href="neubau-mfh-weinfelderstrasse-amriswil.php">
                     <div class="description">
                         <h2 class="short">Neubau 3 MFH | Weinfelderstrasse Amriswil</h2>
                     </div>
                     <div class="imgc short">
-                        <div class="inview short"></div>
+                        <div class="inview"></div>
                         <img src="img/swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil-title.jpg" alt="swiss-baumanagement-neubau-mfh-weinfelderstrasse-amriswil" >
                     </div>
                 </a>
@@ -121,7 +121,7 @@
                         <h2 class="short">Umbau MFH | Konstanzerstrasse Kreuzlingen</h2>
                     </div>
                     <div class="imgc short">
-                        <div class="inview short"></div>
+                        <div class="inview"></div>
                         <img src="img/swiss-baumanagement-umbau-mfh-konstanzerstrasse-kreuzlingen-title.jpg" alt="swiss-baumanagement-umbau-mfh-konstanzerstrasse-kreuzlingen" >
                     </div>
                 </a>
@@ -170,7 +170,7 @@
                         <h2 class="short">Neubau MFH | Buechenstrasse Staad</h2>
                     </div>
                     <div class="imgc short">
-                        <div class="inview short"></div>
+                        <div class="inview"></div>
                         <img src="img/swiss-baumanagement-neubau-mfh-buechenstrasse-staad-title.jpg" alt="swiss-baumanagement-neubau-mfh-buechenstrasse-staad" >
                     </div>
                 </a>
@@ -181,7 +181,7 @@
                         <h2 class="short">Umbau MFH | Bauhof Wittenbach</h2>
                     </div>
                     <div class="imgc short">
-                        <div class="inview short"></div>
+                        <div class="inview"></div>
                         <img src="img/swiss-baumanagement-umbau-mfh-bauhof-wittenbach-title.jpg" alt="swiss-baumanagement-umbau-mfh-bauhof-wittenbach" >
                     </div>
                 </a>

@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    max-width: 1600px;
+    max-width: 2000px;
     margin:0px;
     background-color: #fff;
     padding: 0px;
@@ -254,6 +254,10 @@ header {
     float: left;
 }
 
+.gridsecond {
+    margin-top: -50px;
+}
+
 .gridpro {
     width: 20%;
     float: left;
@@ -289,7 +293,7 @@ header {
 
 .nextproject {
     padding: 0 30px 60px 30px;
-    display: inline-block;
+    float: left;
 }
 
 .nextproject h2 {
@@ -328,7 +332,6 @@ header {
 .descriptionpro h2 {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    height: 600px;
     margin: 0;
     padding: 0px 12px;
     
@@ -349,10 +352,9 @@ header {
     margin-bottom: 20px;
 }
 
-.imgc, .map {
+.imgc {
     position: relative;
     width: 90%;
-    height: 600px;
     float: right;
     overflow: hidden;
     display: flex;
@@ -360,14 +362,21 @@ header {
 }
 
 .imgc img {
-    -webkit-transition: 2s ease-out;
-    transition: height 2s ease-out;
-    height: 100%;
-    filter: grayscale(25%);
+    transition: filter 0.5s ease-out;
 }
 
 .imgc:hover img {
-    height: 105%;
+    filter: grayscale(100%);
+}
+
+.map {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    float: right;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -389,10 +398,6 @@ header {
     position: absolute;
     transition: height 1s cubic-bezier(1,.0,.55,1);
     transition-delay: 0.25s;
-}
-
-.short, .description h2.short {
-    height: 500px;
 }
 
 .pfeil {
@@ -553,17 +558,18 @@ footer p {
 #cookiebanner {
     position: fixed;
     bottom: -300px;
-    left: 40px;
-    border-radius: 10px;
+    left: 30px;
+    border-radius: 0px;
     width: 350px;
-    background-color: white;
+    background-color: #646464;
     padding: 15px;
     z-index: 9999;
     transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
   }
   
   #cookiebanner p {
-    color: black;
+    font-size: 18px;
+    color: white;
     margin: 0;
   }
   
@@ -572,29 +578,29 @@ footer p {
   }
   
   #cookiebanner button {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0;
     text-decoration: none; 
   }
   
   #declineBtn, #acceptBtn {
-    border-radius: 30px;
+    border-radius: 5px;
     margin-top: 20px;
   }
   
   #declineBtn {
     padding: 10px 20px;
     background:none;
-    border: 1px solid gray; 
-    color: gray;
+    border: 1px solid white; 
+    color: white;
     opacity: 0.5;
   }
   
   #acceptBtn {
     border: none;
     padding: 10px 40px;
-    background: black;
-    color: white;
+    background: white;
+    color: #646464;
     margin-right: 5px;
   }
   
@@ -630,6 +636,8 @@ h2, p, a {font-size: 16px;}
 .gridcontainer,.nextproject {padding: 0 20px 40px 20px;}
 .shortpro {height: 400px;}
 .dmap h2 {height: 600px;}
+.gridsecond {margin-top: 0px;}
+
 
 /* wir */
 .gridfull .gridone, .gridfull .gridtwo {width: 100%;}
@@ -679,6 +687,6 @@ h1 {font-size: 20px;}
 
 footer img {position: relative;margin-top: 20px;}
  
-#cookiebanner {width: calc(100% - 70px); left: 20px;}
+#cookiebanner {width: calc(100% - 40px); left: 20px;}
 #cookiebanner.visible {bottom: 60px;}
 }
