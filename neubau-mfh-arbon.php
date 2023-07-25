@@ -80,14 +80,14 @@
                     <img src="img/swiss-baumanagement-neubau-mfh-arbon-06.jpg" alt="swiss-baumanagement-neubau-mfh-arbon" >
                 </div>
             </div>
-        </div>
-        <div class="nextproject">
-            <a href="neubau-efh-st-gallen" target="_top">
-                <h2>Nächstes Projekt</h2>
-                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
-            </a>
-        </div>          
+        </div>       
     </section>
+    <div class="nextproject">
+        <a href="neubau-efh-st-gallen" target="_top">
+            <h2>Nächstes Projekt</h2>
+            <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+        </a>
+    </div>   
     
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>

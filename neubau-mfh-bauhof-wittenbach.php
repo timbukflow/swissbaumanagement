@@ -41,39 +41,37 @@
                 </div>
             </div>
         </div>
-        <div class="grid30cont">
-            <div class="grid30">
-                <div class="gridcontainer">
-                    <div class="imgproject">
-                        <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-02.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
-                    </div>
-                </div>
-            </div>
-            <div class="grid30">
-                <div class="gridcontainer">
-                    <div class="imgproject">
-                        <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-03.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
-                    </div>
-                </div>
-            </div>
-            <div class="grid30">
-                <div class="gridcontainer">
-                    <div class="imgproject">
-                        <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-04.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
-                    </div>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-02.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
                 </div>
             </div>
         </div>
-        <div class="nextproject">
-            <a href="neubau-efh-roggwil" target="_top">
-                <h2>Nächstes Projekt</h2>
-                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
-            </a>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-03.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
+                </div>
+            </div>
+        </div>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-bauhof-wittenbach-04.jpg" alt="swiss-baumanagement-neubau-mfh-bauhof-wittenbach" >
+                </div>
+            </div>
         </div>     
     </section>
+    <div class="nextproject">
+        <a href="neubau-efh-roggwil" target="_top">
+            <h2>Nächstes Projekt</h2>
+            <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+        </a>
+    </div>
     
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>

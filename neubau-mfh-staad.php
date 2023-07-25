@@ -64,14 +64,14 @@
                     <img src="img/swiss-baumanagement-neubau-mfh-staad-04.jpg" alt="swiss-baumanagement-neubau-mfh-staad" >
                 </div>
             </div>
-        </div>
-        <div class="nextproject">
-            <a href="neubau-mfh-goldach" target="_top">
-                <h2>Nächstes Projekt</h2>
-                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
-            </a>
         </div>     
     </section>
+    <div class="nextproject">
+        <a href="neubau-mfh-goldach" target="_top">
+            <h2>Nächstes Projekt</h2>
+            <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+        </a>
+    </div>
     
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>

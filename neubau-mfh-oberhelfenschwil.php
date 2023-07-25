@@ -73,13 +73,13 @@
                 </div>
             </div>
         </div>
-        <div class="nextproject">
-            <a href="umbau-mfh-taegerwilen" target="_top">
-                <h2>Nächstes Projekt</h2>
-                <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
-            </a>
-        </div>       
     </section>
+    <div class="nextproject">
+        <a href="umbau-mfh-taegerwilen" target="_top">
+            <h2>Nächstes Projekt</h2>
+            <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+        </a>
+    </div>
     
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>
