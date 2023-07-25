@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau MFH Wiesenstrasse Goldach</title>
-    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Wiesenstrasse Goldach">
+    <title>Swiss Baumanagement | Umbau + Neubau MFH Kreuzlingen</title>
+    <meta name="description" content="Umbau + Neubau, Mehrfamilienhaus MFH, Kreuzlingen">
     <?php include 'head.php'; ?>
 </head>
   
@@ -14,7 +14,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach-01.jpg" alt="swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach" >
+                    <img src="img/swiss-baumanagement-umbau-neubau-mfh-kreuzlingen-01.jpg" alt="swiss-baumanagement-umbau-neubau-mfh-kreuzlingen" >
                 </div>
             </div>
         </div>
@@ -22,20 +22,18 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                    Neubau MFH <br> Wiesenstrasse Goldach
+                        Umbau + Neubau MFH <br> Kreuzlingen
                     </h1>
                     <h2>
                         <ul>
                             <li class="overtitle">Adresse:</li>
-                            <li>Wiesenstrasse 5, 9403 Goldach</li>
+                            <li>8280 Kreuzlingen</li>
                             <li class="overtitle">Projektumfang:</li>
-                            <li>Neubau, Mehrfamilienhaus mit Tiefgarage (11 Wohnungen)</li>
+                            <li>Umbau + Neubau, Mehrfamilienhaus (12 Wohnungen)</li>
                             <li class="overtitle">Verfahren:</li>
                             <li>Auftrag Investor</li>
-                            <li class="overtitle">Anlagekosten:</li>
-                            <li>3'838'000.-</li>
                             <li class="overtitle">Ausführung:</li>
-                            <li>2020 - 2021</li>
+                            <li>2017 - 2018</li>
                             <li class="overtitle">Leistung:</li>
                             <li>Projekt + Werkplanung</li>
                         </ul>
@@ -48,7 +46,7 @@
                 <div class="gridcontainer">
                     <div class="imgproject">
                         <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach-02.jpg" alt="swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach" >
+                        <img src="img/swiss-baumanagement-umbau-neubau-mfh-kreuzlingen-02.jpg" alt="swiss-baumanagement-umbau-neubau-mfh-kreuzlingen" >
                     </div>
                 </div>
             </div>
@@ -56,7 +54,7 @@
                 <div class="gridcontainer">
                     <div class="imgproject">
                         <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach-03.jpg" alt="swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach" >
+                        <img src="img/swiss-baumanagement-umbau-neubau-mfh-kreuzlingen-03.jpg" alt="swiss-baumanagement-umbau-neubau-mfh-kreuzlingen" >
                     </div>
                 </div>
             </div>
@@ -64,17 +62,25 @@
                 <div class="gridcontainer">
                     <div class="imgproject">
                         <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach-04.jpg" alt="swiss-baumanagement-neubau-mfh-wiesenstrasse-goldach" >
+                        <img src="img/swiss-baumanagement-umbau-neubau-mfh-kreuzlingen-04.jpg" alt="swiss-baumanagement-umbau-neubau-mfh-kreuzlingen" >
                     </div>
+                </div>
+            </div>
+        </div>  
+        <div class="grid100">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-umbau-neubau-mfh-kreuzlingen-05.jpg" alt="swiss-baumanagement-umbau-neubau-mfh-kreuzlingen" >
                 </div>
             </div>
         </div>
         <div class="nextproject">
-            <a href="umbau-mfh-konstanzerstrasse-kreuzlingen" target="_top">
+            <a href="neubau-mfh-bauhof-wittenbach" target="_top">
                 <h2>Nächstes Projekt</h2>
                 <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
             </a>
-        </div>      
+        </div>
     </section>
     
     <?php include 'footer.php'; ?>    

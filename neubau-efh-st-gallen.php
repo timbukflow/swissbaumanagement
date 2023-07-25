@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau 3 MFH Rebenpark Arbon</title>
-    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Rebenpark Arbon">
+    <title>Swiss Baumanagement | Neubau EFH St. Gallen</title>
+    <meta name="description" content="Neubau, Einfamilienhaus EFH, St. Gallen">
     <?php include 'head.php'; ?>
 </head>
   
@@ -14,7 +14,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-01.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
+                    <img src="img/swiss-baumanagement-neubau-efh-st-gallen-01.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen-01" >
                 </div>
             </div>
         </div>
@@ -22,18 +22,16 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                        Neubau 3 MFH <br> Rebenpark Arbon
+                        Neubau EFH <br> St. Gallen
                     </h1>
                     <h2>
                         <ul>
                             <li class="overtitle">Adresse:</li>
-                            <li>Rebenstrasse 21, 9320 Arbon</li>
+                            <li>9014 St. Gallen</li>
                             <li class="overtitle">Projektumfang:</li>
-                            <li>Neubau, 3 Mehrfamilienhäuser (37 Wohnungen)</li>
+                            <li>Neubau, Einfamilienhaus</li>
                             <li class="overtitle">Verfahren:</li>
                             <li>Auftrag Investor</li>
-                            <li class="overtitle">Anlagekosten:</li>
-                            <li>26'000'000.-</li>
                             <li class="overtitle">Ausführung:</li>
                             <li>2020 - 2022</li>
                             <li class="overtitle">Leistung:</li>
@@ -47,7 +45,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-02.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
+                    <img src="img/swiss-baumanagement-neubau-efh-st-gallen-02.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen-02" >
                 </div>
             </div>
         </div>
@@ -55,7 +53,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-03.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
+                    <img src="img/swiss-baumanagement-neubau-efh-st-gallen-03.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen-03" >
                 </div>
             </div>
         </div>
@@ -63,7 +61,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-04.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
+                    <img src="img/swiss-baumanagement-neubau-efh-st-gallen-04.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen-04" >
                 </div>
             </div>
         </div>
@@ -71,24 +69,16 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-05.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
-                </div>
-            </div>
-        </div>
-        <div class="grid100">
-            <div class="gridcontainer">
-                <div class="imgproject">
-                    <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-rebenpark-arbon-06.jpg" alt="swiss-baumanagement-neubau-mfh-rebenpark-arbon" >
+                    <img src="img/swiss-baumanagement-neubau-efh-st-gallen-05.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen-05" >
                 </div>
             </div>
         </div>
         <div class="nextproject">
-            <a href="neubau-efh-lehnstrasse-st-gallen" target="_top">
+            <a href="neubau-polygon-bottighofen" target="_top">
                 <h2>Nächstes Projekt</h2>
                 <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
             </a>
-        </div>          
+        </div>        
     </section>
     
     <?php include 'footer.php'; ?>    

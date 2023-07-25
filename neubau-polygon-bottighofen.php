@@ -27,13 +27,11 @@
                     <h2>
                         <ul>
                             <li class="overtitle">Adresse:</li>
-                            <li>Parzelle 71, 8598 Bottighofen TG</li>
+                            <li>8598 Bottighofen TG</li>
                             <li class="overtitle">Projektumfang:</li>
                             <li>Neubau, Wohn- und Gewerbehaus (3 Wohnungen + 5 Gewerbe)</li>
                             <li class="overtitle">Verfahren:</li>
                             <li>Auftrag Investor</li>
-                            <li class="overtitle">Anlagekosten:</li>
-                            <li>7'200'000.-</li>
                             <li class="overtitle">Ausführung:</li>
                             <li>2023 - 2024</li>
                             <li class="overtitle">Leistung:</li>
@@ -92,7 +90,7 @@
             </div>
         </div>
         <div class="nextproject">
-            <a href="neubau-villa-rebenpark-arbon" target="_top">
+            <a href="neubau-villa-arbon" target="_top">
                 <h2>Nächstes Projekt</h2>
                 <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
             </a>

@@ -1,29 +1,23 @@
 <footer>
-    <div class="footergrid">
-        <div class="gridone"> 
-            <div class="gridcontainer footer">
-                <p>
-                    Swiss Baumanagement AG<br>
-                    Flurhofstrasse 160<br>
-                    9000 St.Gallen
-                </p>
-            </div>
-        </div>    
-        <div class="gridone">
-            <div class="gridcontainer footer">
-                <p>
-                    <a href="tel:0712801827">Telefon +41 71 280 18 27</a><br>
-                    <a href="mailto:info@swiss-baumanagement.ch" target="_top">info@swiss-baumanagement.ch</a>
-                </p>
-            </div>
+    <div class="footergrid"> 
+        <div class="footer">
+            <p>
+                Swiss Baumanagement AG<br>
+                Flurhofstrasse 160<br>
+                9000 St.Gallen
+            </p>
+        </div> 
+        <div class="footer">
+            <p>
+                <a href="tel:0712801827">Telefon +41 71 280 18 27</a><br>
+                <a href="mailto:info@swiss-baumanagement.ch" target="_top">info@swiss-baumanagement.ch</a>
+            </p>
         </div>
-        <div class="gridone">
-            <div class="gridcontainer footer">
-                <p>
-                    <a class="data-target" data-target="#impressum">Impressum</a>
-                </p>
-                <img src="img/wir-machen-profis-lehrbetrieb-logo.png" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
-            </div>
+        <div class="footer">
+            <p>
+                <a class="data-target" data-target="#impressum">Impressum</a>
+            </p>
+            <img src="img/wir-machen-profis-lehrbetrieb-logo.png" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
         </div>
     </div>
     <div class="target-footer" id="impressum">    

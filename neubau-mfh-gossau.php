@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau EFH Lehnstrasse St. Gallen</title>
-    <meta name="description" content="Neubau, Einfamilienhaus EFH, Lehnstrasse St. Gallen">
+    <title>Swiss Baumanagement | Neubau MFH Gossau</title>
+    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Gossau">
     <?php include 'head.php'; ?>
 </head>
   
@@ -14,7 +14,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-01.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-01" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-01.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
                 </div>
             </div>
         </div>
@@ -22,18 +22,16 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                        Neubau EFH <br> Lehnstrasse St. Gallen
+                    Neubau MFH <br> Gossau
                     </h1>
                     <h2>
                         <ul>
                             <li class="overtitle">Adresse:</li>
-                            <li>Lehnstrasse 3, 9014 St. Gallen</li>
+                            <li>9200 Gossau</li>
                             <li class="overtitle">Projektumfang:</li>
-                            <li>Neubau, Einfamilienhaus</li>
+                            <li>Neubau, Mehrfamilienhaus (3 Wohnungen)</li>
                             <li class="overtitle">Verfahren:</li>
                             <li>Auftrag Investor</li>
-                            <li class="overtitle">Anlagekosten:</li>
-                            <li>1'650'000.-</li>
                             <li class="overtitle">Ausführung:</li>
                             <li>2020 - 2022</li>
                             <li class="overtitle">Leistung:</li>
@@ -47,7 +45,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-02.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-02" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-02.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
                 </div>
             </div>
         </div>
@@ -55,7 +53,31 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-03.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-03" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-03.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
+                </div>
+            </div>
+        </div>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-04.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
+                </div>
+            </div>
+        </div>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-05.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
+                </div>
+            </div>
+        </div>
+        <div class="grid30">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-06.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
                 </div>
             </div>
         </div>
@@ -63,7 +85,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-04.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-04" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-07.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
                 </div>
             </div>
         </div>
@@ -71,16 +93,16 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-05.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-05" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-gossau-08.jpg" alt="swiss-baumanagement-neubau-mfh-gossau" >
                 </div>
             </div>
         </div>
         <div class="nextproject">
-            <a href="neubau-polygon-bottighofen" target="_top">
+            <a href="neubau-mfh-staad" target="_top">
                 <h2>Nächstes Projekt</h2>
                 <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
             </a>
-        </div>        
+        </div>         
     </section>
     
     <?php include 'footer.php'; ?>    

@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau 3 MFH Dorfstrasse Oberhelfenschwil</title>
-    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Dorfstrasse Oberhelfenschwil">
+    <title>Swiss Baumanagement | Neubau MFH Oberhelfenschwil</title>
+    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Oberhelfenschwil">
     <?php include 'head.php'; ?>
 </head>
   
@@ -14,7 +14,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-01" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-01" >
                 </div>
             </div>
         </div>
@@ -22,18 +22,16 @@
             <div class="gridcontainer">
                 <div class="infoc">
                     <h1>
-                        Neubau 3 MFH <br> Dorfstrasse Oberhelfenschwil
+                        Neubau MFH <br> Oberhelfenschwil
                     </h1>
                     <h2>
                         <ul>
                             <li class="overtitle">Adresse:</li>
-                            <li>Dorfstrasse 1066, 9621 Oberhelfenschwil</li>
+                            <li>9621 Oberhelfenschwil</li>
                             <li class="overtitle">Projektumfang:</li>
                             <li>Neubau, Mehrfamilienhaus mit Tiefgarage (11 Wohnungen)</li>
                             <li class="overtitle">Verfahren:</li>
                             <li>Auftrag Investor</li>
-                            <li class="overtitle">Anlagekosten:</li>
-                            <li>2'450'000.-</li>
                             <li class="overtitle">Ausführung:</li>
                             <li>2020 - 2021</li>
                             <li class="overtitle">Leistung:</li>
@@ -47,7 +45,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-02.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-02" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-02.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-02" >
                 </div>
             </div>
         </div>
@@ -55,7 +53,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-03.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-03" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-03.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-03" >
                 </div>
             </div>
         </div>
@@ -63,7 +61,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-04.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-04" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-04.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-04" >
                 </div>
             </div>
         </div>
@@ -71,12 +69,12 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-05.jpg" alt="swiss-baumanagement-neubau-mfh-dorfstrasse-oberhelfenschwil-05" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-05.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-05" >
                 </div>
             </div>
         </div>
         <div class="nextproject">
-            <a href="umbau-mfh-okenfinerstrasse-taegerwilen" target="_top">
+            <a href="umbau-mfh-taegerwilen" target="_top">
                 <h2>Nächstes Projekt</h2>
                 <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
             </a>

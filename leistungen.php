@@ -78,24 +78,24 @@
         
         <div class="gridone resp">
             <div class="gridcontainer">
-                <a href="neubau-efh-lehnstrasse-st-gallen">
+                <a href="neubau-efh-st-gallen">
                     <div class="description">
-                        <h2>Neubau EFH |  Lehnstrasse St. Gallen</h2>
+                        <h2>Neubau EFH | St. Gallen</h2>
                     </div>
                     <div class="imgc">
                         <div class="inview"></div>
-                        <img src="img/swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen-title.jpg" alt="swiss-baumanagement-neubau-efh-lehnstrasse-st-gallen" >
+                        <img src="img/swiss-baumanagement-neubau-efh-st-gallen-title.jpg" alt="swiss-baumanagement-neubau-efh-st-gallen" >
                     </div>
                 </a>
             </div>
             <div class="gridcontainer">
-                <a href="neubau-mfh-buechenstrasse-staad">
+                <a href="neubau-mfh-staad">
                     <div class="description">
-                        <h2 class="short">Neubau MFH | Buechenstrasse Staad</h2>
+                        <h2 class="short">Neubau MFH | Staad</h2>
                     </div>
                     <div class="imgc short">
                         <div class="inview short"></div>
-                        <img src="img/swiss-baumanagement-neubau-mfh-buechenstrasse-staad-title.jpg" alt="swiss-baumanagement-neubau-mfh-buechenstrasse-staad" >
+                        <img src="img/swiss-baumanagement-neubau-mfh-staad-title.jpg" alt="swiss-baumanagement-neubau-mfh-staad" >
                     </div>
                 </a>
             </div>

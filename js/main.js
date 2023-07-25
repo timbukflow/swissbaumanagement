@@ -1,13 +1,5 @@
 $(document).ready(function () {
     
-    // Navigation //
-    $('#navburger').click(function(){
-        $('.nav').stop(true).toggleClass('navin');
-		$('.navburgeron').stop(true).toggleClass('navshow');
-        $('.nav ul').stop(true).toggleClass('in');
-        $('.navcontact').stop(true).toggleClass('up');
-	});
-
     // Fadin inview //
     $(window).scroll(function() {
         var $inview = $('.inview');
