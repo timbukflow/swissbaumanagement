@@ -9,12 +9,8 @@ body {
     background-color: #fff;
     padding: 0px;
 }
-
-body.black {
-    background-color: #222;
-}
     
-h1, h2, p, a {
+h1, h2, p, a, li, ul {
     color: #646464;
     font-weight: 400;
     font-style: normal;
@@ -92,6 +88,7 @@ header {
     z-index: 10;
     height: 100vh;
     border-left: 1px solid gray;
+    background: white;
 }
 
 .nav ul {
@@ -276,15 +273,14 @@ header {
 }
 
 .accTitle {
-    border-bottom: #646464 1px solid;
-    padding: 17px 0px 20px;
+    border-bottom: gray 1px solid;
+    padding: 17px 0px 20px 50px;
     margin-bottom: 0;
     cursor: pointer;
-    transition: padding-left 0.25s cubic-bezier(1,.0,.55,1);
 }
 
-.accTitle:hover {
-    padding-left: 15px;  
+.accTitle:last-child {
+    border-bottom: none;
 }
 
 .accTitle:hover .pfeil{
@@ -293,7 +289,7 @@ header {
 
 .accordion p {
     margin: 0;
-    padding: 25px 75px 45px 0px;
+    padding: 25px 75px 45px 50px;
 }
 
 .accordion h2 {
@@ -306,44 +302,27 @@ header {
 }
 
 /*---------------------------------- 
-    projektcontroller
+    werkliste
 -----------------------------------*/
-.projectcontroller {
-    position: fixed;
-    top: 298px;
-    right: 32px;
-    float: left;
-    width: 30px;
+.werkcontainer {
+    margin-top: 350px;
+}
+.werkcontainer li{
+    border-bottom: 1px solid gray;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.werkcontainer li.wtitle{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.werkcontainer li span{
+    width: 50%;
+    display: inline-block;
 }
 
-.projectcontroller h2 {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    margin: 0;
-    padding: 15px 0;
-    cursor: pointer;
-    float: left;
-}
 
-.proactiv {
-    color: #fff;
-}
-
-.projecthide {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    opacity: 0.25;
-    transition: all 0.5s cubic-bezier(1,.0,.55,1);
-}
-
-.shortpro, .description h2.shortpro {
-    height: 400px;
-    color: #646464;
-}
-
-.inview.shortpro {
-   background: #222; 
-}
 
 
 
