@@ -5,12 +5,10 @@
         </a>
     </div>
     <div class="nav">
-        <ul class="in">
-            <li><a href="buero">Büro</a></li>
-            <li><a href="werkliste">Werkliste</a></li>
-            <li><a href="leistungen">Leistungen</a></li>
-            <li><a href="kontakt">Kontakt</a></li>
-        </ul>           
+        <a href="buero">Büro</a>
+        <a href="werkliste">Werkliste</a>
+        <a href="leistungen">Leistungen</a>
+        <a href="kontakt">Kontakt</a>       
     </div>
 </header>
         

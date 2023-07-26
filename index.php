@@ -43,17 +43,17 @@
                     </div>
                 </a>
             </div>
-            <div class="gridcontainer">
-                <div class="infoc">
+            <div class="gridcontainer infostart">
+                <div class="infoins">
                     <h1>
                         Perfekte Koordination durch höchste Konzentration
                     </h1>
                     <h2>
-                        In Partnerschaft mit unseren Bauexperten setzen wir alles daran, Ihre Bauwerke qualitativ hochstehend, budget- und termingerecht zu realisieren. In enger Zusammenarbeit mit den Fachplanern und Unternehmern handeln wir kundenorientiert und fokussieren auf effiziente Abläufe.
+                    In Partnerschaft mit unseren Bauexperten setzen wir alles daran, Ihre Bauwerke qualitativ hochstehend, budget- und termingerecht zu realisieren. In enger Zusammenarbeit mit den Fachplanern und Unternehmern handeln wir kundenorientiert und fokussieren auf effiziente Abläufe.
                     </h2>
-                    <a href="wir" target="_top">
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
-                    </a>
+                </div>
+                <div class="infoins">
+                    <a href="buero" target="_top"><span class="arrow">&blacktriangleright; </span> Büro</a>
                 </div>
             </div>
             <div class="gridcontainer">
@@ -144,17 +144,17 @@
                     </div>
                 </a>
             </div>
-            <div class="gridcontainer">
-                <div class="infoc">
+            <div class="gridcontainer infostart">
+                <div class="infoins">
                     <h1>
                         Kompetente Ansprechpartner, umsichtige Organisatoren, erfahrene Macher, faire Partner.
                     </h1>
                     <h2>
                         Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben in Teilen oder in vollem Umfang. Langjährige Erfahrung, Leidenschaft für die Architektur, sowie eine Unternehmenskultur der permanenten Innovation und Weiterbildung zeichnen uns aus.
                     </h2>
-                    <a href="leistungen" target="_top">
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
-                    </a>
+                </div>
+                <div class="infoins">
+                    <a href="leistungen" target="_top"><span class="arrow">&blacktriangleright; </span> Leistungen</a>
                 </div>
             </div>
             <div class="gridcontainer">

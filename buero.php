@@ -2,102 +2,107 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Wir</title>
+    <title>Swiss Baumanagement | Büro</title>
     <meta name="description" content="Die Swiss Baumanagement AG ist ein Team von Bauexperten. Wir verstehen uns als kompetente Partner in komplexen Bauprojekten und realisieren Ihr Bauvorhaben.">
     <?php include 'head.php'; ?>
 </head>
   
 <body>
     <?php include 'header.php'; ?>
-    <section class="container gridfull">
-        <div class="gridtwo">
-            <div class="gridcontainer infocresp">
-                <div class="infoc">
-                    <h1>
-                        <span>Wir</span>
-                        Die Swiss Baumanagement AG mit Sitz in St.Gallen blickt auf eine über 30 jährige Erfahrung im Bau- und Immobiliengewerbe zurück. Dabei richten wir unsere Kompetenz auf die Errichtung von Wohn – und Gewerbehäusern sowie Renovationen.<br><br>Was uns erfolgreich macht ist schnell erklärt. Wir sind davon überzeugt, dass Vertrauen die Grundvoraussetzung einer erfolgreichen Zusammenarbeit ist. Auf diese Maxime aufbauend, freuen wir uns jeden Tag aufs Neue, gemeinsam mit Ihnen und unseren Partnern, architektonisch anspruchsvollen und lebenswerten Wohnraum zu schaffen. Nach Kauf und Entwicklung eines Grundstücks organisiert und koordiniert die Swiss Baumanagement AG sämtliche Bauleistungen und begleitet die Architektenplanung bis hin zur Auftragserteilung für die Bauausführung.
-                    </h1>
-                </div>
-            </div>
+    <section class="werkcontainer">
+        <div class="infoc">
+            <h2>Büro</h2>
+            <h1>
+                Die Swiss Baumanagement AG mit Sitz in St.Gallen blickt auf eine über 30 jährige Erfahrung im Bau- und Immobiliengewerbe zurück. Dabei richten wir unsere Kompetenz auf die Errichtung von Wohn – und Gewerbehäusern sowie Renovationen.<br><br>Was uns erfolgreich macht ist schnell erklärt. Wir sind davon überzeugt, dass Vertrauen die Grundvoraussetzung einer erfolgreichen Zusammenarbeit ist. Auf diese Maxime aufbauend, freuen wir uns jeden Tag aufs Neue, gemeinsam mit Ihnen und unseren Partnern, architektonisch anspruchsvollen und lebenswerten Wohnraum zu schaffen. Nach Kauf und Entwicklung eines Grundstücks organisiert und koordiniert die Swiss Baumanagement AG sämtliche Bauleistungen und begleitet die Architektenplanung bis hin zur Auftragserteilung für die Bauausführung.
+            </h1>                 
         </div>
-        
-         <div class="gridtwo">
-            <div class="gridcontainer">
-                <h1><span>Partner</span></h1>
-                <h2 class="accTitle">
-                    <a href="http://art-of-loft.ch/" target="_blank">Art of Loft
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+        <div class="infoc">
+            <h2>Team</h2>
+            <ul>
+                <li class="plink">
+                    <a href="mailto:info@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Hinrichs Thomas</span><span>dipl. Architekt HF</span>
                     </a>
-                </h2>
-                <h2 class="accTitle">
-                    <a href="http://www.adp-baumanagement.ch/" target="_blank">ADP Baumanagement
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+                </li>
+                <li class="plink">
+                    <a href="mailto:martin.holzner@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Holzner Martin</span><span>dipl. Architekt HF</span>
                     </a>
-                </h2>
-                <h2 class="accTitle">
-                    <a href="http://hvkimmo.ch/" target="_blank">HVK Immobilien
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+                </li>
+                <li class="plink">
+                    <a href="mailto:francesco.capello@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Cappello Francesco</span><span>dipl. Architekt HF</span>
                     </a>
-                </h2>
-                <h2 class="accTitle">
-                    <a href="http://meierpartnerimmobilien.ch/" target="_blank">Meier &amp; Partner Immobilien
-                        <img class="pfeil" src="img/pfeil.svg" width="30px" height="24px">
+                </li>
+                <li class="plink">
+                    <a href="mailto:bruno.haas@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Haas Bruno</span><span>dipl. Architekt HF </span>
                     </a>
-                </h2>              
-            </div>
+                </li>
+                <li class="plink">
+                    <a href="mailto:dren.cazimi@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Cazimi Dren</span><span>Zeichner EFZ Auszubildender 3. Lehrjahr </span>
+                    </a>
+                </li> 
+                <li class="plink">
+                    <a href="mailto:noah.clavijo@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Clavijo Noah</span><span>Zeichner EFZ Auszubildender 1. Lehrjahr</span>
+                    </a>
+                </li>
+                <li class="plink noline">
+                    <a href="mailto:sekretariat@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Henter Patricia</span><span>Projekt- und GL-Assistentin / Sekretariat</span>
+                    </a>
+                </li>              
+            </ul>
         </div>
-        <div class="gridone">
-            <div class="gridcontainer">
-                <h1><span>Standort</span></h1>
-                    <div class="description dmap">
-                        <h2>Flurhofstrasse 160 | 9000 St.Gallen</h2>
-                    </div>
-                    <div class="map ">
-                        <div class="inview "></div>
-                        <div id="map"></div>
-                    </div>
-            </div>
+        <div class="infoc">
+            <h2>Partner</h2>
+            <ul>
+                <li class="plink">
+                    <a href="http://art-of-loft.ch/" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>Art of Loft</span><span>Architektur</span>
+                    </a>
+                </li>
+                <li class="plink">
+                    <a href="http://meierpartnerimmobilien.ch/" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>Meier &amp; Partner Immobilien</span><span>Verkauf, Vermietung, Bewirtschaftung</span>
+                    </a>
+                </li>
+                <li class="plink">
+                    <a href="http://https://www.sur.ag//" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>Sproll und Ramseyer</span><span>Verkauf, Vermietung, Bewirtschaftung</span>
+                    </a>
+                </li>
+                <li class="plink noline">
+                    <a href="http://cuesta.ch/" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>Cuesta</span><span>Investment</span>
+                    </a>
+                </li>    
+            </ul>
+        </div>
+        <div class="infoc">
+            <h2>Kontakt</h2>
+            <ul>
+                <li class="plink">
+                    <a href="https://goo.gl/maps/SYLnMX6cDgfJyMoNA" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>Adresse</span><span>Flurhofstrasse 160, 9000 St.Gallen</span>
+                    </a>
+                </li>
+                <li class="plink">
+                    <a href="tel:0712801827">
+                        <span class="arrow">&blacktriangleright;</span><span>Telefon</span><span> +41 71 280 18 27</span>
+                    </a>
+                </li>
+                <li class="plink noline">
+                <a href="mailto:info@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Mail</span><span>info@swiss-baumanagement.ch</span>
+                    </a>
+                </li>   
+            </ul>
         </div>
     </section>
-    
-    <script>
-        function initMap() {
-            var swissbaumanagement = {lat: 47.432370, lng: 9.405179}; 
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 14, 
-                    center: swissbaumanagement,
-                    zoomControl: false,
-                    mapTypeControl: false,
-                    scaleControl: false,
-                    streetViewControl: false,
-                    rotateControl: false,
-                    fullscreenControl: false,
-                    styles: [
-                        {"featureType": "administrative","elementType": "geometry","stylers":[{"visibility": "off"}]},
-                        {"featureType": "landscape.man_made","elementType": "geometry.stroke","stylers": [{"color": "#c8c8c8"}]},
-                        {"featureType": "poi","stylers": [{"visibility": "off"}]},
-                        {"featureType": "road","elementType": "labels.icon","stylers": [{"visibility": "off"}]},
-                        {"featureType": "transit","stylers": [{"visibility": "off"}]}
-                    ]
-                });
-            
-            var icon = { 
-                url: "img/marker.svg",
-                scaledSize: new google.maps.Size(40, 40),
-                origin: new google.maps.Point(0,0),
-                anchor: new google.maps.Point(0, 0)
-            }; 
 
-            var marker = new google.maps.Marker({ 
-                position: swissbaumanagement, 
-                map: map, 
-                icon: icon 
-            });    
-        }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQn8EflPEw6mWtOisyIfTdk3rnt2TfYCc&callback=initMap"
-  type="text/javascript"></script>
     
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>

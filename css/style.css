@@ -4,7 +4,6 @@ html, body {
 }
 
 body {
-    max-width: 2000px;
     margin:0px;
     background-color: #fff;
     padding: 0px;
@@ -24,13 +23,11 @@ h1, h2, p, a, li, ul {
     hyphens: auto;
     -webkit-hyphens: auto;
     text-decoration: none;
-    letter-spacing: 0.75px;
+    letter-spacing: 0.9px;
 }
 
 h1 {
     font-size: 28px;
-    margin-top: 0px;
-    margin-bottom: 40px;
 }
 
 h1 span {
@@ -41,14 +38,13 @@ h1 span {
 
 h2 {
     font-size: 18px;
-    margin-top: 40px;
-    margin-bottom: 40px;
     line-height: 1.5;
     letter-spacing: 0.75px;
 }
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -64,14 +60,10 @@ li.overtitle {
 /*---------------------------------- 
     header
 -----------------------------------*/
-header {
-    margin: 40px 90px 0px 30px;
-    width: calc(100% - 100px);
-}
 
 .logo {
+    margin: 40px 0px 0px 50px;
     display: inline-block;
-    padding: 0 20px;
 }
 .logo img {
     width: 320px;
@@ -85,31 +77,21 @@ header {
     position: fixed;
     top: 0;
     right: 0;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
+    width: 54px;
     z-index: 10;
-    border-left: 1px solid gray;
     background: white;
 }
 
-.nav ul {
-    margin: 0;
-}
-
-.nav li {
-    display: inline-block;
+.nav a {
     list-style-type: none;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
     border-top: 1px solid gray;
-}
-
-.nav li a {
     padding: 40px 15px;
-    display: inline-block;
+    display: block;
+    transition: background-color 0.2s;
 }
 
-.nav li:hover {
-    
-}
 /*---------------------------------- 
     container
 -----------------------------------*/
@@ -135,6 +117,10 @@ header {
 .gridcontainer a {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.description  {
+   width: 10%;
 }
 
 .description h2 {
@@ -165,8 +151,17 @@ header {
     filter: grayscale(100%);
 }
 
-.gridtwoproject {
+.gridproject {
     width: 66.6%;
+    padding: 20px;
+}
+.imgproject {
+    display: flex;
+    flex-direction: column;
+}
+.gridprojectinfo {
+    width: 33.3%;
+    padding: 20px;
 }
 .gridone {
     width: 30%;
@@ -182,10 +177,34 @@ header {
 .grid100 {
     width: 100%;
 }
+.infostart {
+    display: flex;
+    flex-direction: column;
+}
+.infoins {
+    width: 90%;
+}
+.infoins a {
+    margin-top: 50px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
 
+.infoc {
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+.infoc h1 {
+    padding: 5px 40% 25px 50px;
+}
+.infoc h2 {
+    padding: 5px 40% 5px 50px;
+}
 
 .nextproject {
-    margin-right: 54px;
+    width: calc(100% - 80px);
     padding: 20px 0px 20px 50px;
     border-top: 1px solid gray;
 }
@@ -197,48 +216,6 @@ header {
     transition: padding 0.25s ease-in-out;
 }
 
-.nextproject h2:hover {
-    padding-right: 40px;
-}
-
-.pfeilnext {
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
-}
-
-
-.infoc {
-    position: relative;
-    width: 90%;
-    float: left;
-}
-.infoc h2 {
-    margin-bottom: 20px;
-}
-
-
-
-.map {
-    position: relative;
-    width: 90%;
-    height: 600px;
-    float: right;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-
-.imgproject {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    overflow: hidden;
-    flex-direction: column; 
-}
-
-
 .inview {
     height: 100%;
     left: 0;
@@ -248,18 +225,6 @@ header {
     position: absolute;
     transition: height 1s cubic-bezier(1,.0,.55,1);
     transition-delay: 0.25s;
-}
-
-.pfeil {
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
-    float: right;
-    transition: margin-right 0.25s ease-in-out;
-}
-
-.pfeil:hover{
-    margin-right: 0px;  
 }
 
 /*---------------------------------- 
@@ -281,13 +246,9 @@ header {
     border-bottom: none;
 }
 
-.accTitle:hover .pfeil{
-    margin-right: 0px;  
-}
-
 .accordion p {
     margin: 0;
-    padding: 25px 75px 45px 50px;
+    padding: 25px 40% 45px 50px;
 }
 
 .accordion h2 {
@@ -296,42 +257,49 @@ header {
 
 .accList {
     display: none;
-    
 }
 
 /*---------------------------------- 
     werkliste
 -----------------------------------*/
 .werkcontainer {
-    margin-top: 350px;
+    margin-top: 137px;
+    margin-bottom: 100px;
+    width: calc(100% - 80px);
 }
 .werkcontainer li{
     border-bottom: 1px solid gray;
-    padding-left: 50px;
-    padding-top: 5px;
-    padding-bottom: 2px;
+    padding: 5px 0px 5px 50px;
+}
+
+.wtitle {
+    font-weight: 600;
 }
 .werkcontainer li.wtitle{
-    font-weight: 600;
     margin-top: 20px;
 }
 .werkcontainer li span{
-    width: 50%;
+    width: 580px;
     display: inline-block;
 }
+.werkcontainer li span.arrow {
+    width: 15px;
+}
+.werkcontainer li span:last-child{
+    margin-left: 15px;
+}
 
-
-
-
-
-/*---------------------------------- 
-    map
------------------------------------*/
-
-#map {
-        height: 800px;
-        width: 100%;
-       }
+.plink {
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.plink:hover {
+    background-color: rgb(230, 230, 230);
+}
+li.noline {
+    border-bottom:none; 
+}
 
 /*---------------------------------- 
     animation
@@ -341,45 +309,56 @@ header {
     height: 0px !important; 
 }
 
+.arrow {
+    width: 15px;
+    display: inline-block;
+    transition: margin-right 0.25s ease-in-out;
+}
+
+.nextproject h2:hover .arrow,
+.infoins a:hover .arrow {
+    margin-right: 10px;
+}
+
 /*---------------------------------- 
     footer
 -----------------------------------*/
 
 footer {
-    margin-right: 54px;
-    padding-left: 30px;
-    padding-right: 36px;
+    width: calc(100% - 80px);
+    display: flex;
     border-top: gray 1px solid;
+    justify-content: space-between;
 }
 
 footer p {
     margin: 0;
-}
-.footergrid {
-    display: flex;
-    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 15px;
 }
 
-.footer {
-    flex-basis: 33.3%;
-    overflow: hidden;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+footer img {
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+.data-target{
+    cursor: pointer;
 }
 
 .target-footer {
     display: none;
-    padding: 30px;
-    position: relative;
-    float: left;
+    width: calc(100% - 80px);
+    padding: 15px 50% 15px 50px;
+    border-top: gray 1px solid;
 }
 
-.disclamer {
-    font-size: 14px;
+.target-footer p {
+   margin-bottom: 30px;
 }
-
+.target-footer strong {
+    display: block;
+ }
 
 
 /*----------------------------------
@@ -447,81 +426,25 @@ responsive ipad
 -----------------------------------*/
 
 @media only screen and (max-width: 1260px) {
-.gridtwoproject .gridcontainer .imgproject img {height: 600px;}
-.gridtwoproject .gridcontainer .imgproject {justify-content: center; flex-direction: row; }  
+
 }
 
 @media only screen and (max-width: 1000px) {
 h1 {font-size: 24px;}
 h2, p, a {font-size: 16px;}
-.container { margin: 40px 60px 0px 10px; width: calc(100% - 70px);}
-.proresp {margin: 40px 100px 0px 10px; width: calc(100% - 110px);}
-/* header */
-.logo {padding: 0 20px 15px 20px;}
-#navburger, .navburgeron {right: 20px;}
-.nav ul {right: 70px;}
-
-/* start */
-.imgc {height: 500px}
-.gridcontainer,.nextproject {padding: 0 20px 40px 20px;}
-.shortpro {height: 400px;}
-.dmap h2 {height: 600px;}
-
-
-/* wir */
-.gridfull .gridone, .gridfull .gridtwo {width: 100%;}
-.gridfull .resp {display: none;}
-
-/* project */
-.gridpro {width: 33%;}
-
-/* footer */
-.footergrid {align-items: flex-start; flex-direction: column; gap: 10px; padding-bottom: 20px;}
-.footer {padding: 0 20px;}
-footer .gridone {width: 100%;}
-footer img {width: 75px; height: 75px;}
-.target-footer {padding: 10px 20px 20px;}
 
 }
 
 @media only screen and (max-width: 700px) {
 h1 {font-size: 20px;}
 .logo img {width: 230px;}
-.navin {width: 100%;}
 
-.container { margin: 40px 50px 0px 10px; width: calc(100% - 60px);}
-.proresp {margin: 40px 100px 0px 10px; width: calc(100% - 110px);}
-.gridpro {width: 50%;}
-/* start */
-.gridone {width: 100%;}
-.gridpro {width: 50%;}
-.imgc {height: auto}
-
-.shortpro {height: 400px;}
-/* projekte */
-.gridtwoproject, .grid50, .grid30 {width: 100%;}
-.grid30cont {display: flex;flex-direction: column;}
 }
 
 @media only screen and (max-width: 460px) {
 h1 {font-size: 16px; margin-bottom: 0;}
 h2 {margin-top: 0;}
-.logo img {width: 230px;}
 
-.gridpro {width: 100%;}
-.gridcontainer.infocresp {padding: 0 0 40px 20px;}
-/* start */
-.gridone {width: 100%;}
-.imgc {height: 450px}
-
-.dmap h2 {height: 600px;}
-.pfeil {float: none;}
-.accordion p {padding: 25px 10px 45px 0px;}
-
-.gridtwoproject .gridcontainer .imgproject img {height: 280px;}
-
-footer {width: auto; margin: 60px 0px 0px 10px;}
-footer img {position: relative;margin-top: 20px;}
  
 #cookiebanner {width: calc(100% - 40px); left: 20px;}
 #cookiebanner.visible {bottom: 60px;}

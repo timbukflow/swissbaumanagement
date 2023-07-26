@@ -10,36 +10,30 @@
 <body>
     <?php include 'header.php'; ?>
     <section class="container">
-        <div class="gridtwoproject">
-            <div class="gridcontainer">
-                <div class="imgproject">
-                    <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-01" >
-                </div>
+        <div class="gridproject">
+            <div class="imgproject">
+                <div class="inview"></div>
+                <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-01" >
             </div>
         </div>
-        <div class="gridone">
-            <div class="gridcontainer">
-                <div class="infoc">
-                    <h1>
-                        Neubau MFH <br> Oberhelfenschwil
-                    </h1>
-                    <h2>
-                        <ul>
-                            <li class="overtitle">Adresse:</li>
-                            <li>9621 Oberhelfenschwil</li>
-                            <li class="overtitle">Projektumfang:</li>
-                            <li>Neubau, Mehrfamilienhaus mit Tiefgarage (11 Wohnungen)</li>
-                            <li class="overtitle">Verfahren:</li>
-                            <li>Auftrag Investor</li>
-                            <li class="overtitle">Ausführung:</li>
-                            <li>2020 - 2021</li>
-                            <li class="overtitle">Leistung:</li>
-                            <li>Baumanagement</li>
-                        </ul>
-                    </h2>
-                </div>
-            </div>
+        <div class="gridprojectinfo">
+            <h1>
+                Neubau MFH <br> Oberhelfenschwil
+            </h1>
+            <h2>
+                <ul>
+                    <li class="overtitle">Adresse:</li>
+                    <li>9621 Oberhelfenschwil</li>
+                    <li class="overtitle">Projektumfang:</li>
+                    <li>Neubau, Mehrfamilienhaus mit Tiefgarage (11 Wohnungen)</li>
+                    <li class="overtitle">Verfahren:</li>
+                    <li>Auftrag Investor</li>
+                    <li class="overtitle">Ausführung:</li>
+                    <li>2020 - 2021</li>
+                    <li class="overtitle">Leistung:</li>
+                    <li>Baumanagement</li>
+                </ul>
+            </h2>
         </div>
         <div class="grid50">
             <div class="gridcontainer">

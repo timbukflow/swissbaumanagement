@@ -10,36 +10,30 @@
 <body>
     <?php include 'header.php'; ?>
     <section class="container">
-        <div class="gridtwoproject">
-            <div class="gridcontainer">
-                <div class="imgproject">
-                    <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-umbau-mfh-taegerwilen-01.jpg" alt="swiss-baumanagement-umbau-mfh-taegerwilen" >
-                </div>
+        <div class="gridproject">
+            <div class="imgproject">
+                <div class="inview"></div>
+                <img src="img/swiss-baumanagement-umbau-mfh-taegerwilen-01.jpg" alt="swiss-baumanagement-umbau-mfh-taegerwilen" >
             </div>
         </div>
-        <div class="gridone">
-            <div class="gridcontainer">
-                <div class="infoc">
-                    <h1>
-                        Umbau MFH <br> Tägerwilen
-                    </h1>
-                    <h2>
-                        <ul>
-                            <li class="overtitle">Adresse:</li>
-                            <li 6, 8274 Tägerwilen</li>
-                            <li class="overtitle">Projektumfang:</li>
-                            <li>Umbau, Mehrfamilienhaus (11 Wohnungen)</li>
-                            <li class="overtitle">Verfahren:</li>
-                            <li>Auftrag Investor</li>
-                            <li class="overtitle">Ausführung:</li>
-                            <li>2020 - 2021</li>
-                            <li class="overtitle">Leistung:</li>
-                            <li>Planung + Baumanagement</li>
-                        </ul>
-                    </h2>
-                </div>
-            </div>
+        <div class="gridprojectinfo">
+            <h1>
+                Umbau MFH <br> Tägerwilen
+            </h1>
+            <h2>
+                <ul>
+                    <li class="overtitle">Adresse:</li>
+                    <li 6, 8274 Tägerwilen</li>
+                    <li class="overtitle">Projektumfang:</li>
+                    <li>Umbau, Mehrfamilienhaus (11 Wohnungen)</li>
+                    <li class="overtitle">Verfahren:</li>
+                    <li>Auftrag Investor</li>
+                    <li class="overtitle">Ausführung:</li>
+                    <li>2020 - 2021</li>
+                    <li class="overtitle">Leistung:</li>
+                    <li>Planung + Baumanagement</li>
+                </ul>
+            </h2>
         </div>
         <div class="grid50">
             <div class="gridcontainer">
