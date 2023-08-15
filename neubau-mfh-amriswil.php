@@ -69,9 +69,11 @@
         </div>        
     </section>
     <div class="nextproject">
-        <a href="neubau-mfh-arbon" target="_top">
-            <h2>Nächstes Projekt</h2>
-            <img class="pfeilnext" src="img/pfeil.svg" width="30px" height="24px">
+        <a href="index" target="_top">
+            <h2><span class="arrow">&blacktriangleright;</span> Alle Projekte</h2>
+        </a>
+        <a href="neubau-polygon-bottighofen" target="_top">
+            <h2><span class="arrow">&blacktriangleright;</span> Nächstes Projekt</h2>
         </a>
     </div>
     

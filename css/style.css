@@ -237,7 +237,7 @@ li.overtitle {
 
 .accTitle {
     border-bottom: gray 1px solid;
-    padding: 17px 0px 20px 50px;
+    padding: 15px 0px 20px 50px;
     margin-bottom: 0;
     cursor: pointer;
 }
@@ -279,7 +279,7 @@ li.overtitle {
     margin-top: 20px;
 }
 .werkcontainer li span{
-    width: 580px;
+    width: 45%;
     display: inline-block;
 }
 .werkcontainer li span.arrow {
@@ -313,10 +313,14 @@ li.noline {
     width: 15px;
     display: inline-block;
     transition: margin-right 0.25s ease-in-out;
+    padding-bottom: 5px;
+    vertical-align: middle;
 }
 
 .nextproject h2:hover .arrow,
-.infoins a:hover .arrow {
+.infoins a:hover .arrow,
+.accTitle:hover .arrow,
+.plink a:hover .arrow {
     margin-right: 10px;
 }
 
@@ -425,27 +429,55 @@ footer img {
 responsive ipad
 -----------------------------------*/
 
-@media only screen and (max-width: 1260px) {
-
+@media only screen and (max-width: 1350px) {
+.gridcontainer {flex-basis: 50%;}
+.infoc h1 {padding: 5px 10% 25px 50px;}
+.accordion p {padding: 25px 10% 45px 50px}
 }
 
 @media only screen and (max-width: 1000px) {
 h1 {font-size: 24px;}
-h2, p, a {font-size: 16px;}
-
+h2, p, a, li {font-size: 16px;}
+/* projekte */
+.gridproject, .gridprojectinfo, .grid50, .grid30 {width: 100%;}
 }
 
-@media only screen and (max-width: 700px) {
-h1 {font-size: 20px;}
+@media only screen and (max-width: 850px) {
+h1 {font-size: 21px;}
 .logo img {width: 230px;}
-
+.nav a {padding: 30px 15px;}
+.gridcontainer {flex-basis: 100%;}
+.infoc h1 {padding: 5px 10px 25px 50px;}
+.accordion p {padding: 25px 10px 45px 50px}
+/* footer */
+.fline {display: none;}
+footer p span {display: block; padding-bottom: 5px;}
+.target-footer {padding: 15px 10px 15px 50px;}
 }
 
-@media only screen and (max-width: 460px) {
-h1 {font-size: 16px; margin-bottom: 0;}
+@media only screen and (max-width: 500px) {
 h2 {margin-top: 0;}
+.container {margin: 20px 50px 30px 0px;}
+.logo {margin: 30px 0px 0px 30px;}
+.nav {width: 32px;}
+.nav a {padding: 30px 5px;}
+.gridcontainer {padding-bottom: 0px;}
+.werkcontainer {width: calc(100% - 50px); margin-top: 80px;}
+.werkcontainer li {padding: 5px 0px 5px 20px;}
+.werkcontainer li span {width: 90%;}
+.werkcontainer li span:last-child {margin-left: 0; opacity: 0.5;}
+.infoc h1 {padding: 5px 10px 25px 20px;}
+.infoc h2 {padding: 5px 10px 10px 20px;}
+.accTitle {padding: 15px 0px 20px 20px;}
+.accordion p {padding: 25px 10px 25px 20px}
 
- 
+.nextproject {width: calc(100% - 50px);padding: 20px 0px 20px 20px;}
+
+footer {width: calc(100% - 50px); padding-bottom: 20px;}
+footer p {padding-left: 20px;}
+footer img {display: none;}
+.target-footer {width: calc(100% - 50px); padding: 15px 10px 15px 20px;}
+
 #cookiebanner {width: calc(100% - 40px); left: 20px;}
 #cookiebanner.visible {bottom: 60px;}
 }

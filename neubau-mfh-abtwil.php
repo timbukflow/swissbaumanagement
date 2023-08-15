@@ -2,8 +2,8 @@
 <html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Swiss Baumanagement | Neubau MFH Oberhelfenschwil</title>
-    <meta name="description" content="Neubau, Mehrfamilienhaus MFH, Oberhelfenschwil">
+    <title>Swiss Baumanagement | Neubau 7 MFH Abtwil</title>
+    <meta name="description" content="Neubau, 7 Mehrfamilienhäuser MFH, Abtwil">
     <?php include 'head.php'; ?>
 </head>
   
@@ -13,23 +13,23 @@
         <div class="gridproject">
             <div class="imgproject">
                 <div class="inview"></div>
-                <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-01" >
+                <img src="img/swiss-baumanagement-neubau-mfh-abtwil-01.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
             </div>
         </div>
         <div class="gridprojectinfo">
             <h1>
-                Neubau MFH <br> Oberhelfenschwil
+                Neubau 7 MFH <br> Abtwil
             </h1>
             <h2>
                 <ul>
                     <li class="overtitle">Adresse:</li>
-                    <li>9621 Oberhelfenschwil</li>
+                    <li>9030 Abtwil</li>
                     <li class="overtitle">Projektumfang:</li>
-                    <li>Neubau, Mehrfamilienhaus mit Tiefgarage (11 Wohnungen)</li>
+                    <li>Überbauung 7 Mehrfamilienhäuser (57 Wohnungen) Abtwil</li>
                     <li class="overtitle">Verfahren:</li>
-                    <li>Auftrag Investor</li>
+                    <li>?</li>
                     <li class="overtitle">Ausführung:</li>
-                    <li>2020 - 2021</li>
+                    <li>?</li>
                     <li class="overtitle">Leistung:</li>
                     <li>Baumanagement</li>
                 </ul>
@@ -39,7 +39,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-02.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-02" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-02.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-03.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-03" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-03.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-04.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-04" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-04.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
                 </div>
             </div>
         </div>
@@ -63,20 +63,36 @@
             <div class="gridcontainer">
                 <div class="imgproject">
                     <div class="inview"></div>
-                    <img src="img/swiss-baumanagement-neubau-mfh-oberhelfenschwil-05.jpg" alt="swiss-baumanagement-neubau-mfh-oberhelfenschwil-05" >
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-05.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
                 </div>
             </div>
-        </div>
+        </div>   
+        <div class="grid50">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-06.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
+                </div>
+            </div>
+        </div>   
+        <div class="grid50">
+            <div class="gridcontainer">
+                <div class="imgproject">
+                    <div class="inview"></div>
+                    <img src="img/swiss-baumanagement-neubau-mfh-abtwil-07.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
+                </div>
+            </div>
+        </div>             
     </section>
     <div class="nextproject">
         <a href="index" target="_top">
             <h2><span class="arrow">&blacktriangleright;</span> Alle Projekte</h2>
         </a>
-        <a href="neubau-mfh-goldach" target="_top">
+        <a href="ausbau-stadtvilla-st-gallen" target="_top">
             <h2><span class="arrow">&blacktriangleright;</span> Nächstes Projekt</h2>
         </a>
     </div>
-    
+
     <?php include 'footer.php'; ?>    
     <?php include 'script.php'; ?>
 </body>

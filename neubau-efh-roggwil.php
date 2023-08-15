@@ -64,7 +64,7 @@
         <a href="index" target="_top">
             <h2><span class="arrow">&blacktriangleright;</span> Alle Projekte</h2>
         </a>
-        <a href="neubau-mfh-amriswil" target="_top">
+        <a href="neubau-efh-st-gallen" target="_top">
             <h2><span class="arrow">&blacktriangleright;</span> Nächstes Projekt</h2>
         </a>
     </div>

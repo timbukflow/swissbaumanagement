@@ -7,8 +7,7 @@
     <div class="nav">
         <a href="buero">Büro</a>
         <a href="werkliste">Werkliste</a>
-        <a href="leistungen">Leistungen</a>
-        <a href="kontakt">Kontakt</a>       
+        <a href="leistungen">Leistungen</a>   
     </div>
 </header>
         

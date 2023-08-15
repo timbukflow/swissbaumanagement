@@ -179,6 +179,39 @@
                     </div>
                 </a>
             </div>
+            <div class="gridcontainer">
+                <a href="neubau-mfh-balterswil">
+                    <div class="description">
+                        <h2 class="short">Neubau MFH | Balterswil</h2>
+                    </div>
+                    <div class="imgc short">
+                        <div class="inview"></div>
+                        <img src="img/swiss-baumanagement-neubau-mfh-balterswil-title.jpg" alt="swiss-baumanagement-neubau-mfh-balterswil" >
+                    </div>
+                </a>
+            </div>
+            <div class="gridcontainer">
+                <a href="neubau-mfh-abtwil">
+                    <div class="description">
+                        <h2 class="short">Neubau MFH | Abtwil</h2>
+                    </div>
+                    <div class="imgc short">
+                        <div class="inview"></div>
+                        <img src="img/swiss-baumanagement-neubau-mfh-abtwil-title.jpg" alt="swiss-baumanagement-neubau-mfh-abtwil" >
+                    </div>
+                </a>
+            </div>
+            <div class="gridcontainer">
+                <a href="ausbau-stadtvilla-st-gallen">
+                    <div class="description">
+                        <h2 class="short">Ausbau Stadtvilla | St. Gallen</h2>
+                    </div>
+                    <div class="imgc short">
+                        <div class="inview"></div>
+                        <img src="img/swiss-baumanagement-ausbau-stadtvilla-st-gallen-title.jpg" alt="swiss-baumanagement-ausbau-stadtvilla-st-gallen" >
+                    </div>
+                </a>
+            </div>
     </section>
     
     <?php include 'footer.php'; ?>    

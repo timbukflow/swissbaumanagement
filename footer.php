@@ -1,5 +1,9 @@
 <footer>
-    <p>Copyright 2023 <span>|</span> Swiss Baumanagement AG <span>|</span> <a class="data-target" data-target="#impressum"> Impressum &amp; Datenschutz &blacktriangledown;</a></p>
+    <p>
+        <span>Copyright 2023</span><span class="fline"> |</span> 
+        <span>Swiss Baumanagement AG</span><span class="fline"> |</span> 
+        <span><a class="data-target" data-target="#impressum"> Impressum &amp; Datenschutz &blacktriangledown;</a></span>
+    </p>
     <img src="img/wir-machen-profis-lehrbetrieb-logo.png" alt="wir-machen-profis-lehrbetrieb-logo" width="100px" height="100px">
 </footer>
 
