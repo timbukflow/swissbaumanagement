@@ -6,9 +6,139 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.swiss-baumanagement.ch/</loc>
-  <lastmod>2019-07-23T12:00:48+00:00</lastmod>
+  <loc>https://swiss-baumanagement.ch/</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
   <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/buero</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/leistungen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-efh-roggwil</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-efh-st-gallen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-oberhelfenschwil</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-goldach</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-amriswil.php</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-polygon-bottighofen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/umbau-mfh-taegerwilen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-gossau.php</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/umbau-neubau-mfh-kreuzlingen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-arbon</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-villa-arbon</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-staad</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-bauhof-wittenbach</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-balterswil</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-abtwil</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/ausbau-stadtvilla-st-gallen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste-neubau-mfh-sulgen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste-neubau-mfh-roeschstrasse-st-gallen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-amriswil</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/neubau-mfh-gossau</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste-neubau-gewerbehaus-st-gallen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste-neubau-familienhaus-st-gallen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://swiss-baumanagement.ch/werkliste-neubau-familienhaus-st-margrethen</loc>
+  <lastmod>2023-08-16T15:15:08+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 </urlset>
