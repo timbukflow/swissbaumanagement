@@ -21,37 +21,37 @@
             <ul>
                 <li class="plink">
                     <a href="mailto:info@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Hinrichs Thomas</span><span>dipl. Architekt HF</span>
+                        <span class="arrow">&blacktriangleright;</span><span>Thomas Hinrichs</span><span>dipl. Architekt HF</span>
                     </a>
                 </li>
                 <li class="plink">
                     <a href="mailto:martin.holzner@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Holzner Martin</span><span>dipl. Architekt HF</span>
+                        <span class="arrow">&blacktriangleright;</span><span>Martin Holzner</span><span>dipl. Architekt FH</span>
                     </a>
                 </li>
                 <li class="plink">
-                    <a href="mailto:francesco.capello@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Cappello Francesco</span><span>dipl. Architekt HF</span>
+                    <a href="mailto:francesco.cappello@swiss-baumanagement.ch" target="_top">
+                        <span class="arrow">&blacktriangleright;</span><span>Francesco Cappello</span><span>dipl. Architekt FH</span>
                     </a>
                 </li>
                 <li class="plink">
                     <a href="mailto:bruno.haas@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Haas Bruno</span><span>dipl. Architekt HF </span>
+                        <span class="arrow">&blacktriangleright;</span><span>Bruno Haas</span><span>dipl. Architekt HF </span>
                     </a>
                 </li>
                 <li class="plink">
                     <a href="mailto:dren.cazimi@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Cazimi Dren</span><span>Zeichner EFZ Auszubildender 3. Lehrjahr </span>
+                        <span class="arrow">&blacktriangleright;</span><span>Dren Cazimi</span><span>Zeichner EFZ Fachrichtung Architektur in Ausbildung </span>
                     </a>
                 </li> 
                 <li class="plink">
                     <a href="mailto:noah.clavijo@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Clavijo Noah</span><span>Zeichner EFZ Auszubildender 1. Lehrjahr</span>
+                        <span class="arrow">&blacktriangleright;</span><span>Noah Clavijo</span><span>Zeichner EFZ Fachrichtung Architektur in Ausbildung</span>
                     </a>
                 </li>
                 <li class="plink noline">
                     <a href="mailto:sekretariat@swiss-baumanagement.ch" target="_top">
-                        <span class="arrow">&blacktriangleright;</span><span>Henter Patricia</span><span>Projekt- und GL-Assistentin / Sekretariat</span>
+                        <span class="arrow">&blacktriangleright;</span><span>Patricia Henter</span><span>Projekt- und GL-Assistentin / Sekretariat</span>
                     </a>
                 </li>              
             </ul>
@@ -70,13 +70,18 @@
                     </a>
                 </li>
                 <li class="plink">
-                    <a href="http://https://www.sur.ag//" target="_blank">
+                    <a href="https://www.sur.ag/" target="_blank">
                         <span class="arrow">&blacktriangleright;</span><span>Sproll und Ramseyer</span><span>Verkauf, Vermietung, Bewirtschaftung</span>
                     </a>
                 </li>
-                <li class="plink noline">
+                <li class="plink">
                     <a href="http://cuesta.ch/" target="_blank">
                         <span class="arrow">&blacktriangleright;</span><span>Cuesta</span><span>Investment</span>
+                    </a>
+                </li>
+                <li class="plink noline">
+                    <a href="https://go-immo-go.ch/" target="_blank">
+                        <span class="arrow">&blacktriangleright;</span><span>go Immo go</span><span>Verkauf</span>
                     </a>
                 </li>    
             </ul>
@@ -95,7 +100,7 @@
                     </a>
                 </li>
                 <li class="plink noline">
-                <a href="mailto:info@swiss-baumanagement.ch" target="_top">
+                    <a href="mailto:info@swiss-baumanagement.ch" target="_top">
                         <span class="arrow">&blacktriangleright;</span><span>Mail</span><span>info@swiss-baumanagement.ch</span>
                     </a>
                 </li>   

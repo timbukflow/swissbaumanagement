@@ -27,11 +27,11 @@
                     <li class="overtitle">Projektumfang:</li>
                     <li>Überbauung 7 Mehrfamilienhäuser (57 Wohnungen) Abtwil</li>
                     <li class="overtitle">Verfahren:</li>
-                    <li>?</li>
+                    <li>Auftrag Investor</li>
                     <li class="overtitle">Ausführung:</li>
-                    <li>?</li>
+                    <li>2015</li>
                     <li class="overtitle">Leistung:</li>
-                    <li>Baumanagement</li>
+                    <li>Baumanagement bei Trunz + Wirth AG</li>
                 </ul>
             </h2>
         </div>

@@ -23,19 +23,19 @@
             </div>
             <h1 class="accTitle"><span class="arrow">&blacktriangleright;</span>Projektierung</h1>
             <div class="accList">
-                <p>Die Swiss Baumanagement AG erbringt sämtliche Teilleistungen von der ersten Entwurfsidee über alle Planungsphasen in gestalterischer, konstruktiver und ökonomischer Höchstqualität. Möglich machen dies unsere langjährige Erfahrung und die fundierte Fachkompetenz unserer Mitarbeitenden. Die Projektierung von Um-und Neubauten ist unsere Leidenschaft. Da jede Aufgabe einzigartig ist, fühlen wir uns keiner speziellen Architektursprache verpflichtet, sondern suchen mit jeder Bauherrschaft und jedem neuen Ort eine persönliche und individuelle Lösung! Wir suchen innerhalb der gegebenen Möglichkeiten nach innovativen Ideen welche wir mit Ihnen zusammen weiter entwickeln möchten.</p>
+                <p>Die Swiss Baumanagement AG erbringt sämtliche Teilleistungen von der ersten Entwurfsidee über alle Planungsphasen in gestalterischer, konstruktiver und ökonomischer Höchstqualität. Möglich machen dies unsere langjährige Erfahrung und die fundierte Fachkompetenz unserer Mitarbeitenden. Die Projektierung von Um- und Neubauten ist unsere Leidenschaft. Da jede Aufgabe einzigartig ist, fühlen wir uns keiner speziellen Architektursprache verpflichtet, sondern suchen mit jeder Bauherrschaft und jedem neuen Ort eine persönliche und individuelle Lösung. Wir suchen innerhalb der gegebenen Möglichkeiten nach innovativen Ideen welche wir mit Ihnen zusammen weiter entwickeln möchten.</p>
             </div>
             <h1 class="accTitle"><span class="arrow">&blacktriangleright;</span>Bauleitung</h1>
             <div class="accList">
-                <p>In der Bauleitung legen wir nebst der technisch einwandfreien Umsetzung unserer Bauprojekte, grossen Wert auf ein klares und transparentes Zeit- und Kostenmanagement. So stehen wir von der Projektierung bis zur Umsetzung in einem engen partnerschaftlichen Verhältnis mit unseren Bauherrschaften. So versuchen wir bis zur Schlüsselübergabe wo immer möglich je nach Baufortschritt flexibel auf Wünsche und Bedürfnisse unserer Kunden einzugehen und in der Umsetzung berücksichtigen zu können.</p>
+                <p>In der Bauleitung legen wir nebst der technisch einwandfreien Umsetzung unserer Bauprojekte, grossen Wert auf ein klares und transparentes Zeit- und Kostenmanagement. So stehen wir von der Projektierung bis zur Umsetzung, in einem engen partnerschaftlichen Verhältnis mit unseren Bauherrschaften. Wir versuchen bis zur Schlüsselübergabe wo immer möglich, je nach Baufortschritt, flexibel auf die Wünsche und Bedürfnisse unserer Kunden einzugehen um diese in der Umsetzung zu berücksichtigen.</p>
             </div>
             <h1 class="accTitle"><span class="arrow">&blacktriangleright;</span>Ausführungsplanung</h1>
             <div class="accList">
-                <p>Die Ausführungsplanung bildet für uns die selbstverständliche und konsequente Fortsetzung der vorangegangenen Projektierungsarbeit. Die technische Ausarbeitung und einwandfreie Planung bildet die Grundlage für die reibungslose Umsetzung in der folgenden Bauphase.</p>
+                <p>Die Ausführungsplanung bildet für uns die selbstverständliche und konsequente Fortsetzung der vorangegangenen Projektierungsarbeit. Die technische Ausarbeitung und einwandfreie Planung, bildet die Grundlage für die reibungslose Umsetzung in der folgenden Bauphase.</p>
             </div>
             <h1 class="accTitle"><span class="arrow">&blacktriangleright;</span>Garantiearbeiten</h1>
             <div class="accList">
-                <p>Die Swiss Baumanagement für Sie die Leitung der Garantiearbeiten und sorgt für die detailgenaue Erfassung und fristgerechte Beseitigung der vorhandenen Mängel. Die fachkundige Leitung der Garantiearbeiten schützt Sie vor kostenintensiven Nachbesserungen und setzt Ihre Rechte für die Mängelbeseitigung innerhalb der gesetzlichen Garantiefristen durch.</p>
+                <p>Die Swiss Baumanagement übernimmt für Sie die Leitung der Garantiearbeiten und sorgt für die detailgenaue Erfassung und fristgerechte Beseitigung der vorhandenen Mängel. Die fachkundige Leitung der Garantiearbeiten schützt Sie vor kostenintensiven Nachbesserungen und setzt Ihre Rechte für die Mängelbeseitigung innerhalb der gesetzlichen Garantiefristen durch.</p>
             </div>
             <h1 class="accTitle"><span class="arrow">&blacktriangleright;</span>Bauherrenberatung</h1>
             <div class="accList">

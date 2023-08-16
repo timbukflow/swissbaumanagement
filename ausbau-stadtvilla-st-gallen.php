@@ -27,9 +27,9 @@
                     <li class="overtitle">Projektumfang:</li>
                     <li>Ausbau Stadtvilla St.Gallen </li>
                     <li class="overtitle">Verfahren:</li>
-                    <li>?</li>
+                    <li>Auftrag Investor</li>
                     <li class="overtitle">Ausführung:</li>
-                    <li>?</li>
+                    <li>2022</li>
                     <li class="overtitle">Leistung:</li>
                     <li>Baumanagement</li>
                 </ul>

@@ -27,9 +27,9 @@
                     <li class="overtitle">Projektumfang:</li>
                     <li>Neubau 2 Mehrfamilienhäuser (16 Wohnungen) Balterswil</li>
                     <li class="overtitle">Verfahren:</li>
-                    <li>?</li>
+                    <li>Auftrag Investor</li>
                     <li class="overtitle">Ausführung:</li>
-                    <li>?</li>
+                    <li>2015</li>
                     <li class="overtitle">Leistung:</li>
                     <li>Werkplanung</li>
                 </ul>
